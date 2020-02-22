@@ -4,11 +4,11 @@ Ein Kurs von PPEDV :rocket:
 
 [Notizen Anna](./anna/a-notes.md)
 
-[Notizen Elke](../elke/e-notes.md)
+[Notizen Elke](./elke/e-notes.md)
 
-[Notizen Jan](../jan/j-notes.md)
+[Notizen Jan](./jan/j-notes.md)
 
-[Notizen Markus](../markus/m-notes.md)
+[Notizen Markus](./markus/m-notes.md)
 
 __Tag1:__​
 

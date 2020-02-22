@@ -1,6 +1,6 @@
 # C# GRUNDLAGEN
 
-Ein Kurs von PPEDV
+Ein Kurs von PPEDV :rocket:
 
 [Notizen Anna](../anna/a-notes.md)
 [Notizen Elke](../elke/e-notes.md)

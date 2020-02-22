@@ -2,13 +2,7 @@
 
 Ein Kurs von PPEDV :rocket:
 
-:astronaut:
-
-:adult::rocket:
-
-U+200D
-
-:U+200D:
+:man astronaut:
 
 [Notizen Anna](./anna/a-notes.md)
 
@@ -18,21 +12,32 @@ U+200D
 
 [Notizen Markus](./markus/m-notes.md)
 
+[Notizen Vadzim](./vadzim/v-notes.md)
+
 __Tag1:__​
 
 ## M00 | WARMING UP
 
-- [ ] GREETER
+- [ ] Greeter
 - [ ] VS
-- [ ] GIT
+- [ ] Git
 
-## M10 | CS GETTING STARTED
+## M10 | GETTING STARTED
 
-INTRO, ECOSYSTEM, .NET, CONSOLE
+- [ ] Intro
+- [ ] Ecosystem
+- [ ] .NET
+- [ ] Console
 
- (Variablen, Schleifen, Kontrollstrukturen)​
+## M20 | VARIABLES, DATA TYPES, OPERATORS
 
-Konsolenanwendungen mit Ein-/Ausgabe​
+- [ ] Variablen
+- [ ] Datentypen
+- [ ] Operatoren
+- [ ] Casting
+
+
+ Schleifen, Kontrollstrukturen
 
 Arrays und Aufzählungstypen​
 

@@ -14,7 +14,9 @@ __Tag1:__​
 
 ## M00 | WARMING UP
 
-GREETER, VS, GIT
+- [ ] GREETER
+- [x] VS
+- [ ] GIT
 
 ## M10 | CS GETTING STARTED
 

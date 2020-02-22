@@ -2,6 +2,10 @@
 
 Ein Kurs von PPEDV :rocket:
 
+:astronaut:
+
+:adult::rocket:
+
 [Notizen Anna](./anna/a-notes.md)
 
 [Notizen Elke](./elke/e-notes.md)

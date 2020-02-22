@@ -2,7 +2,7 @@
 
 Ein Kurs von PPEDV :rocket:
 
-[Notizen Anna](../anna/a-notes.md)
+[Notizen Anna](./anna/a-notes.md)
 
 [Notizen Elke](../elke/e-notes.md)
 
@@ -15,7 +15,7 @@ __Tag1:__​
 ## M00 | WARMING UP
 
 - [ ] GREETER
-- [x] VS
+- [ ] VS
 - [ ] GIT
 
 ## M10 | CS GETTING STARTED

@@ -1,4 +1,11 @@
-# 20200225-cs-grundk-ka
+# C# GRUNDLAGEN
+
+Ein Kurs von PPEDV
+
+[Notizen Anna](../anna/a-notes.md)
+[Notizen Elke](../elke/e-notes.md)
+[Notizen Jan](../jan/j-notes.md)
+[Notizen Markus](../markus/m-notes.md)
 
 **Tag1:**​
 
@@ -8,7 +15,9 @@ GREETER, VS, GIT
 
 ## M10 | CS GETTING STARTED
 
-C# Grundlagen (Variablen, Schleifen, Kontrollstrukturen)​
+INTRO, ECOSYSTEM, .NET, CONSOLE
+
+ (Variablen, Schleifen, Kontrollstrukturen)​
 
 Konsolenanwendungen mit Ein-/Ausgabe​
 

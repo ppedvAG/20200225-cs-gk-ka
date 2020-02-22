@@ -7,7 +7,7 @@ Ein Kurs von PPEDV
 [Notizen Jan](../jan/j-notes.md)
 [Notizen Markus](../markus/m-notes.md)
 
-**Tag1:**​
+__Tag1:__​
 
 ## M00 | WARMING UP
 

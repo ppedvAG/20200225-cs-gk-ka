@@ -2,8 +2,6 @@
 
 Ein Kurs von PPEDV :rocket:
 
-:man astronaut:
-
 [Notizen Anna](./anna/a-notes.md)
 
 [Notizen Elke](./elke/e-notes.md)
@@ -29,15 +27,26 @@ __Tag1:__​
 - [ ] .NET
 - [ ] Console
 
-## M20 | VARIABLES, DATA TYPES, OPERATORS
+## M20 | DATA TYPES, OPERATORS
 
-- [ ] Variablen
 - [ ] Datentypen
+- [ ] bool
+- [ ] string
+- [ ] int
+- [ ] double
 - [ ] Operatoren
 - [ ] Casting
+- [ ] Enums
 
+## M30 | ARRAYS & CONTROLS
 
- Schleifen, Kontrollstrukturen
+- [ ] Arrays
+- [ ] if else
+- [ ] for
+- [ ] while & do while
+- [ ] switch
+
+# M40 | 
 
 Arrays und Aufzählungstypen​
 

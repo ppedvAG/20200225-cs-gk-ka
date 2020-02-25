@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BA95317-8144-4E23-8C6C-105D686CCD33}</ProjectGuid>
+    <ProjectGuid>{3FE23C48-B4F5-452B-B60D-59626C93F41C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>DConsole</RootNamespace>
     <AssemblyName>DConsole</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DConsole.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

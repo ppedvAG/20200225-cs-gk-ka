@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DConsole
 {
-    class Program
+    class DConsole
     {
         static void Main(string[] args)
         {

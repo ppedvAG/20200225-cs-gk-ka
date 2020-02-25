@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BA95317-8144-4E23-8C6C-105D686CCD33}</ProjectGuid>
+    <ProjectGuid>{CF3AA63D-D141-4E7F-9116-3473B316F9DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DConsole</RootNamespace>
-    <AssemblyName>DConsole</AssemblyName>
+    <RootNamespace>m0HelloWorld</RootNamespace>
+    <AssemblyName>m0HelloWorld</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DConsole.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

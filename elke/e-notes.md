@@ -23,4 +23,9 @@
 | `strg` `j` | autocomplete, z.B. bei WriteLine |
 | `strg` `kc` | Block auskommentieren |
 
+### VISUAL C# SNIPPETS 
+
+| shortcut | effect |
+| ------- | ------ |
+|cw | Console.WriteLine() |
 

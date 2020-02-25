@@ -46,10 +46,6 @@ __Tag1:__​
 - [ ] while & do while
 - [ ] switch
 
-# M40 | 
-
-Arrays und Aufzählungstypen​
-
 **Tag2:**​
 
 Funktionen und Parameter​

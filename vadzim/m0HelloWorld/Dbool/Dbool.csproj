@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FE23C48-B4F5-452B-B60D-59626C93F41C}</ProjectGuid>
+    <ProjectGuid>{C362DCFC-54BF-4038-B928-AAB76D2E5E67}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DConsole</RootNamespace>
-    <AssemblyName>DConsole</AssemblyName>
+    <RootNamespace>Dbool</RootNamespace>
+    <AssemblyName>Dbool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DConsole.cs" />
+    <Compile Include="Dbool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -20,7 +20,6 @@
 | shortcut | effect |
 | ------- | ------ |
 | `strg` `k` `d` | format code |
-
 | `strg` `j` | autocomplete, z.B. bei WriteLine |
 | `strg` `kc` | Block auskommentieren |
 

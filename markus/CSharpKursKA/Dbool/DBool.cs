@@ -13,8 +13,27 @@ namespace Dbool
                         #region M02
 
             // ===========================================================
-            Console.WriteLine("\n ### string.literals ###");
+            Console.WriteLine("\n ### bool literals ###");
+            Console.WriteLine("true / false");
 
+            // ===========================================================
+            Console.WriteLine("\n ### bool operators ###");
+            bool myB1 = true;
+            bool myB2 = false;
+            bool myB3 = true;
+
+            // ===========================================================
+            Console.WriteLine("\n ### bool operators: == ###");
+            Console.WriteLine(myB1 == myB2); // false
+
+            // ===========================================================
+            Console.WriteLine("\n ### bool operators: || ###");
+            Console.WriteLine(myB1 || myB3); // true
+
+            // ===========================================================
+            Console.WriteLine("\n ### bool operators: ^ ###"); // xor oder exclusive or
+            Console.WriteLine(myB1 ^ myB3); //Ergebnis: false
+            //Resultat ist true, nur wenn ein Wert true ist.
 
             #endregion
 

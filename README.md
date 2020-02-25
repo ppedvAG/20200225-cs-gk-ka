@@ -42,10 +42,10 @@ __Tag1:__​
 
 ## M30 | ARRAYS & CONTROLS
 
-- [ ] Arrays
-- [ ] if else
-- [ ] for
-- [ ] while & do while
+- [x] Arrays
+- [x] if else
+- [x] for
+- [x] while & do while
 - [ ] switch
 
 **Tag2:**​

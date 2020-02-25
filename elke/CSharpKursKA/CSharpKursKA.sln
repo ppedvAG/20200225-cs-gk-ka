@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dint", "Dint\Dint.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2MiniClaculator", "M2MiniClaculator\M2MiniClaculator.csproj", "{6EF547DF-71DE-4C62-80F8-CD2424D24032}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DArrays", "DArrays\DArrays.csproj", "{80C5F1B1-EC93-4B62-BD32-4014FB4E1661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3ZahlenRaten", "M3ZahlenRaten\M3ZahlenRaten.csproj", "{61BF6E4E-0EC0-45EA-B404-4D849EF32061}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{6EF547DF-71DE-4C62-80F8-CD2424D24032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF547DF-71DE-4C62-80F8-CD2424D24032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF547DF-71DE-4C62-80F8-CD2424D24032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C5F1B1-EC93-4B62-BD32-4014FB4E1661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C5F1B1-EC93-4B62-BD32-4014FB4E1661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C5F1B1-EC93-4B62-BD32-4014FB4E1661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C5F1B1-EC93-4B62-BD32-4014FB4E1661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BF6E4E-0EC0-45EA-B404-4D849EF32061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BF6E4E-0EC0-45EA-B404-4D849EF32061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BF6E4E-0EC0-45EA-B404-4D849EF32061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BF6E4E-0EC0-45EA-B404-4D849EF32061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

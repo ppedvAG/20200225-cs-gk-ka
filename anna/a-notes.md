@@ -22,3 +22,8 @@
 | `strg` `k` `d` | format code |
 |`strg` `j`| autocomplete, z.B. bei WriteLine |
 |`strg k c` | comment code |
+
+### Visual Studio C# Snippets 
+|shortcut|effect|
+|---|---|
+|cw | Console.WriteLinie() |

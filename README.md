@@ -18,27 +18,27 @@ __Tag1:__​
 
 ## M00 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
-- [ ] Git
+- [x] Greeter
+- [x] VS
+- [x] Git
 
 ## M10 | GETTING STARTED
 
-- [ ] Intro
-- [ ] Ecosystem
+- [x] Intro
+- [x] Ecosystem
 - [ ] .NET
-- [ ] Console
+- [x] Console
 
 ## M20 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] bool
-- [ ] string
-- [ ] int
-- [ ] double
-- [ ] Operatoren
-- [ ] Casting
-- [ ] Enums
+- [x] Datentypen
+- [x] bool
+- [x] string
+- [x] int
+- [x] double
+- [x] Operatoren
+- [x] Casting
+- [x] Enums
 
 ## M30 | ARRAYS & CONTROLS
 

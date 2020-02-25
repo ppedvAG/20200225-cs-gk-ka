@@ -4,37 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dbool
+namespace Dint
 {
-    class Dbool
+    class Dint
     {
         static void Main(string[] args)
         {
             #region M2
 
             // ===========================================================
-            Console.WriteLine("\n ### bool literal and possible values ###");
-            Console.WriteLine("true oder false");
+            Console.WriteLine("\n ### int literale ###");
+            int iInt1 = 4;
+            int iInt2 = -3;
+
+            Console.WriteLine("# int possible values #");
 
             // ===========================================================
-            Console.WriteLine("\n ### bool operators ###");
-            bool myB1 = true;
-            bool myB2 = false;
-            bool myB3 = true;
+            Console.WriteLine("\n ### int.MinValues ###");
+            Console.WriteLine($"intMinValue: {int.MinValue}");
+
+            Console.WriteLine("\n ### int.MaxValues ###");
+            Console.WriteLine($"intMaxValue: {int.MaxValue}");
+
+            Console.WriteLine("\n ### int.Parse() ###");
+            Console.Write("Geben Sie eine Zahl ein: ");// Cursor bleibt an der zeile stehen
+            string sZahlalsString = Console.ReadLine();
+            int iGetcastedString = int.Parse(sZahlalsString);
+            Console.WriteLine($"iGetcastedString as int: {iGetcastedString is int}"); //true
 
             // ===========================================================
-            Console.WriteLine("\n ### bool operators: == ###");
-            Console.WriteLine(myB1 == myB2); // Vergleich der Boolean = false
-            Console.WriteLine(myB1 == myB3); // Vergleich der Boolean = true
+            Console.WriteLine("\n ### (int)kommazahl ###");
 
-            // ===========================================================
-            Console.WriteLine("\n ### bool operators: || ###");
-            Console.WriteLine(myB1 || myB3); // Vergleich || oder 
 
-            // ===========================================================
-            Console.WriteLine("\n ### bool operators: ^ -> nur eines von beiden darf true sein ###");
-            Console.WriteLine(myB1 ^ myB3); // false xor oder exclusives or 
-            // Resultat ist true, nur wenn ein Wert true ist
+
 
 
 

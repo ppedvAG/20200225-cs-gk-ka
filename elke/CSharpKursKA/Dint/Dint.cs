@@ -31,9 +31,14 @@ namespace Dint
             string sZahlalsString = Console.ReadLine();
             int iGetcastedString = int.Parse(sZahlalsString);
             Console.WriteLine($"iGetcastedString as int: {iGetcastedString is int}"); //true
+            Console.WriteLine($"iGetcastedString Gettype: {iGetcastedString.GetType()}"); //true
+
 
             // ===========================================================
             Console.WriteLine("\n ### (int)kommazahl ###");
+            double dKommazahl = 2.5;
+            int iGanzzahl = (int)dKommazahl;
+            Console.WriteLine($"Ganzzahl: { iGanzzahl}");
 
 
 

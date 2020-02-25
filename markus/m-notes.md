@@ -21,3 +21,9 @@
 | `strg` `k` `d` | format code |
 | `strg` `j`     | autocomplete, z.B. bei WriteLine | 
 | `strg` `k` `c` | Zeile auskommentieren |
+
+### VISUAL STUDIO C# SNIPPETS
+
+| shortcut | effect |
+| --- | --- |
+| cw | Console.WriteLine() |

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m0HelloWorld", "m0HelloWorl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DConsole", "DConsole\DConsole.csproj", "{2BA95317-8144-4E23-8C6C-105D686CCD33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dbool", "Dbool\Dbool.csproj", "{76D98A69-EE2B-4567-909A-3E8317A3845D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DString", "DString\DString.csproj", "{958C53D1-C4DF-4780-897C-C18134ACD2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2BA95317-8144-4E23-8C6C-105D686CCD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BA95317-8144-4E23-8C6C-105D686CCD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BA95317-8144-4E23-8C6C-105D686CCD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D98A69-EE2B-4567-909A-3E8317A3845D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D98A69-EE2B-4567-909A-3E8317A3845D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D98A69-EE2B-4567-909A-3E8317A3845D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D98A69-EE2B-4567-909A-3E8317A3845D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958C53D1-C4DF-4780-897C-C18134ACD2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958C53D1-C4DF-4780-897C-C18134ACD2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958C53D1-C4DF-4780-897C-C18134ACD2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958C53D1-C4DF-4780-897C-C18134ACD2A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

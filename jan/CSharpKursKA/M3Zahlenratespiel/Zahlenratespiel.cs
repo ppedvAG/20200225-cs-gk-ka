@@ -41,6 +41,8 @@ namespace M3Zahlenratespiel
             } while (ratemalzahl != zufallszahl);
 
             Console.WriteLine($"Sie haben {anzahl} Versuche gebraucht.");
+
+            Console.ReadKey();
         }
     }
 }

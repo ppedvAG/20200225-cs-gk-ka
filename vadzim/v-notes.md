@@ -33,6 +33,8 @@
 | `shift alt up|down` | edit many lines |
 | `f5`| run with debugging |
 | `ctrl f5`| run without debugging |
+| `ctrl s` | save file |
+| `ctrl shift s` | save all files |
 
 ### VISUAL STUDIO C# SNIPPETS
 

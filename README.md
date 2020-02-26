@@ -51,10 +51,11 @@ __Tag1:__​
 
 ## M40 | FUNCTIONS
 
-- [ ] args
-- [ ] params
-- [ ] return
-- [ ] overloads
+- [x] args
+- [x] params
+- [x] return
+- [x] overloads
+- [x] out arg
 
 ## M50 | CLASSES & OOP
 

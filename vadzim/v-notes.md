@@ -19,6 +19,7 @@
 | shortcut | effect |
 | ------- | ------ |
 | `tab` | autocomplete |
+| `ctrl d` | copy line |
 | `ctrl j` | autocomplete |
 | `ctrl k d` | format code |
 | `ctrl k c` | comment one or more lines |
@@ -30,6 +31,8 @@
 | `ctrl -` | go back |
 | `alt up|down` | move line |
 | `shift alt up|down` | edit many lines |
+| `f5`| run with debugging |
+| `ctrl f5`| run without debugging |
 
 
 

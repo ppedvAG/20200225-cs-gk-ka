@@ -21,6 +21,8 @@ namespace DClass
 
         // constructor
         // snippet: ctor tab tab
+        // sollen heißen genauso wie die Klasse
+        // haben keinen RückgabeTyp
         public MyClassWProps(string fn, string ln)
         {
             Firstname = fn;

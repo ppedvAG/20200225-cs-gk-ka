@@ -51,21 +51,21 @@ __Tag1:__​
 
 ## M40 | FUNCTIONS
 
-- [x] args
-- [x] params
+- [x] arguments
+- [x] parameters
 - [x] return
 - [x] overloads
-- [x] out arg
+- [x] out & ref args
 
 ## M50 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
 
 ## M60 | INHERITENCE / VERERBUNG
 

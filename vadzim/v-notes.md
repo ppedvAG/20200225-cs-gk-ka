@@ -34,8 +34,6 @@
 | `f5`| run with debugging |
 | `ctrl f5`| run without debugging |
 
-
-
 ### VISUAL STUDIO C# SNIPPETS
 
 | snippet | effect |
@@ -44,5 +42,5 @@
 | for | for loop |
 | while | while loop |
 | do | do while loop |
-
-
+| ctor | constructor |
+| prop | property |

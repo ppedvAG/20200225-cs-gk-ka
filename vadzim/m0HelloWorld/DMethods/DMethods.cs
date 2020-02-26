@@ -16,8 +16,8 @@ namespace DMethods
         }
 
 
-        // modifier returnvalue identifier (args) { body }
-        // args sind immer neu angelegte Variablen
+        // modifier returntype identifier (parameters) { body }
+        // parameter sind immer neu angelegte Variablen, die innerhalb der Methode verwendet werden
         public static int Addiere(int a, int b, int c = 0, int d = 0) // Kopf der Funktion
         { // Körper der Funktion
             int summe = a + b + c + d;
@@ -42,6 +42,7 @@ namespace DMethods
             return summe;
         }
 
+        // Die Bezeichnung out ist verwirrend. out bezieht sich nicht auf Variablen von draußen. (das wäre ref)
         public static int AddiereUndSubtrahiereUndMultipliziere(int a, int b, out int differenz, out int produkt)
         {
             differenz = a - b;
@@ -64,22 +65,27 @@ namespace DMethods
             // ===========================================================
             Console.WriteLine("\n ### simple call ###");
 
+            // Ausdrücke, die wir an die Methode beim Aufruf übergeben, heißen Argumente 
             var summe = Addiere(2, 2);
             // variante mit int wurde genommen, obwohl Deklaration von double voransteht
             Console.WriteLine(summe is int); // True
 
+            // ===========================================================
             Console.WriteLine("\n ### call with optional args ###");
             summe = Addiere(2, 2, 2, 2);
             Console.WriteLine(summe);
 
+            // ===========================================================
             Console.WriteLine("\n ### overloads ###");
             double summeD = Addiere(2.3, 2.3);
             Console.WriteLine("summeD is double {0}", summeD is double);
 
+            // ===========================================================
             Console.WriteLine("\n ### params ###");
             summe = AddiereBeliebigViele(4, 5, 3, 4, 2, 4);
             Console.WriteLine(summe); // 22
 
+            // ===========================================================
             Console.WriteLine("\n ### out ###");
             summe = AddiereUndSubtrahiereUndMultipliziere(3, 12, out int diff, out int prod);
             Console.WriteLine($"summe: {summe }, diff: {diff}, prod: {prod}");

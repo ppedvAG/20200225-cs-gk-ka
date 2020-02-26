@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace m0HelloWorld
 {
-    class Program
+    class HelloWorld
     {
         static void Main(string[] args)
         {

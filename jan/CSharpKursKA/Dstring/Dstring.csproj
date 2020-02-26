@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F76A13CE-B065-43B6-92F7-A1145EFC4962}</ProjectGuid>
+    <ProjectGuid>{33CED2E3-9666-4D71-ADD6-D780B5827C11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DConsole</RootNamespace>
-    <AssemblyName>DConsole</AssemblyName>
+    <RootNamespace>Dstring</RootNamespace>
+    <AssemblyName>Dstring</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dconsole.cs" />
+    <Compile Include="Dstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

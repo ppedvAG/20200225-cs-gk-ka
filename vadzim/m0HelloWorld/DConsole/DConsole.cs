@@ -14,6 +14,10 @@ namespace DConsole
 
             // ===========================================================
             Console.WriteLine("\n ### Console.WriteLine() ###");
+            // schreibt die Parameter zum Default-Output
+            // bei der Konsole-App ist es die Konsole cmd
+            // ein anderes Output könnte die Messagebox sein
+            // snippet dafür: cw
             Console.WriteLine("ausgabe");
 
 

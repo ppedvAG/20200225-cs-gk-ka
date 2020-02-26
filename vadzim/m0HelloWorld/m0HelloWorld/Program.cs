@@ -10,7 +10,8 @@ using System.Threading.Tasks;
 namespace m0HelloWorld
 {
     // Die PROGRAM-Klasse ist Einstiegspunkt für unsere Anwendung.
-    class Program // class App hat auch funktioniert
+    // die Klasse muss nicht unbendingt Program heißen
+    class Program 
     {
         // Die MAIN-Methode ist BOOTSTRAP-Punkt für jedes C#-Programm.
         // Methoden in C# werden großgeschrieben.

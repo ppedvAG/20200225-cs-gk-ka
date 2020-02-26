@@ -59,8 +59,8 @@ namespace DArray
             foreach (var item in doubleArray)
             {                
                 Console.WriteLine(item);
-                // item++ ist
-                // !!! die foreach Variable darf nicht zum Zwischenspeichern von unseren Werten gebraucht werden -  schlecht
+                // item++ ist schlecht
+                // !!! die foreach Variable darf nicht zum Zwischenspeichern von unseren Werten gebraucht werden
             }
 
 

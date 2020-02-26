@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m0HelloWorld", "m0HelloWorld\m0HelloWorld.csproj", "{70BFD2F0-35A5-4586-94A6-DF80D3936B08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M1HelloWorld", "m0HelloWorld\M1HelloWorld.csproj", "{70BFD2F0-35A5-4586-94A6-DF80D3936B08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DConsole", "DConsole\DConsole.csproj", "{3FE23C48-B4F5-452B-B60D-59626C93F41C}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2MiniRechner", "M2MiniRechner\M2MiniRechner.csproj", "{3AB05591-6BC8-49BF-A9DC-7AC976543AFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DArray", "DArray\DArray.csproj", "{52087C4A-8473-41E3-A38E-49BD9F6097A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3Zahlenratespiel", "M3Zahlenratespiel\M3Zahlenratespiel.csproj", "{516B1909-3710-4E4E-BA61-0547759FC1DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{52087C4A-8473-41E3-A38E-49BD9F6097A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52087C4A-8473-41E3-A38E-49BD9F6097A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52087C4A-8473-41E3-A38E-49BD9F6097A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516B1909-3710-4E4E-BA61-0547759FC1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516B1909-3710-4E4E-BA61-0547759FC1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516B1909-3710-4E4E-BA61-0547759FC1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516B1909-3710-4E4E-BA61-0547759FC1DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

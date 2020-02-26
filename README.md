@@ -26,7 +26,7 @@ __Tag1:__​
 
 - [x] Intro
 - [x] Ecosystem
-- [ ] .NET
+- [x] .NET
 - [x] Console
 
 ## M20 | DATA TYPES, OPERATORS
@@ -38,7 +38,7 @@ __Tag1:__​
 - [x] double
 - [x] Operatoren
 - [x] Casting
-- [x] Enums
+- [ ] Enums
 
 ## M30 | ARRAYS & CONTROLS
 
@@ -48,19 +48,40 @@ __Tag1:__​
 - [x] while & do while
 - [ ] switch
 
+===
 **Tag2:**​
 
-Funktionen und Parameter​
+## M40 | FUNCTIONS
 
-Objektorientierte Programmierung (Klassen/Objekte)​
+- [ ] args
+- [ ] params
+- [ ] return
+- [ ] overloads
 
-Vererbung​
+## M50 | CLASSES & OOP
 
-Interfaces und Polymorphismus​
+- [ ] constructor
+- [ ] fields
+- [ ] props
+- [ ] class methods
+- [ ] access modifier
+- [ ] inctances / objects
+- [ ] destructor
+
+## M60 | INHERITENCE / VERERBUNG
+
+- [ ] base
+- [ ] virtual & override methods
+- [ ] abstract methods
+
+## M70 | POLYMORPHISM
+
+- [ ] interfaces
+
+===
+**Tag3:**​
 
 Generische Datentypen​
-
-**Tag3:**​
 
 Benutzeroberfläche gestalten mit WindowsForms​
 

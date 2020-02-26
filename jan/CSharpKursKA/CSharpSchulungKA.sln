@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DArray", "DArrays\DArray.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3Zahlenratespiel", "M3Zahlenratespiel\M3Zahlenratespiel.csproj", "{ADD86713-5C81-420C-9C19-937C074F37F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denum", "Denum\Denum.csproj", "{8C37538A-A346-46F3-A775-8733158152F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmethoden", "Dmethoden\Dmethoden.csproj", "{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{ADD86713-5C81-420C-9C19-937C074F37F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD86713-5C81-420C-9C19-937C074F37F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD86713-5C81-420C-9C19-937C074F37F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C37538A-A346-46F3-A775-8733158152F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C37538A-A346-46F3-A775-8733158152F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C37538A-A346-46F3-A775-8733158152F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C37538A-A346-46F3-A775-8733158152F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

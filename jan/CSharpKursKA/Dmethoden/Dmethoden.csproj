@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5413373B-2BD3-4B91-ACB7-171BC98DDDC3}</ProjectGuid>
+    <ProjectGuid>{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>m0HelloWorld</RootNamespace>
-    <AssemblyName>m0HelloWorld</AssemblyName>
+    <RootNamespace>Dmethoden</RootNamespace>
+    <AssemblyName>Dmethoden</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
+    <Compile Include="Dmethoden.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5413373B-2BD3-4B91-ACB7-171BC98DDDC3}</ProjectGuid>
+    <ProjectGuid>{0DF8FC07-53A1-4FE7-8F42-FBBA179D4D53}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>m0HelloWorld</RootNamespace>
-    <AssemblyName>m0HelloWorld</AssemblyName>
+    <RootNamespace>DDouble</RootNamespace>
+    <AssemblyName>DDouble</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
+    <Compile Include="Ddouble.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

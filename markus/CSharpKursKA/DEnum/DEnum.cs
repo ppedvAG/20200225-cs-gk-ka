@@ -4,58 +4,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dint
+namespace DEnum
 {
-    class Dint
+    class DEnum
     {
+        // Enumeratoren sind selbst definierte Datentypen mit festgelegten möglichen Zuständen.
+        // Jeder Zustand ist dabei an einen Int-Wert gekoppelt (Casting möglich).
+        // ===========================================================
+        enum Pizzagröße { Klein, Mittel, Groß, Family };
+        //ENUMS werden außerhalb von Methoden deklariert
+        enum Wochentag { Mo = 1, Di = 2, Mi, Do, Fr, Sa, So };
         static void Main(string[] args)
         {
-            #region M2
-
+            #region M02
+            Console.WriteLine("\n # Declaration of Enums #");
+            // Siehe den Code über der Main Methode
             // ===========================================================
-            Console.WriteLine("\n ### int literale ###");
-            int myInt1 = 4;
-            int myInt2 = -3;
+            Console.WriteLine("\n ### Calling of enums ###");
+            Pizzagröße PiGr = Pizzagröße.Mittel;
+            Console.WriteLine($"Ich habe mir eine Pizza von der Größe {PiGr} gegönnt.");
+            Pizzagröße PiGr2 = (Pizzagröße)(2);
+            Console.WriteLine($" - Und ich habe {PiGr2} genommen.");
+            #endregion
 
-
-            Console.WriteLine("\n # int possible values #");
+            #region M03
+            Console.WriteLine("\n # Switch #");
             // ===========================================================
-            Console.WriteLine("\n int.MinValue");
-            Console.WriteLine($"int.MinValue: {int.MinValue}");
-            Console.WriteLine("\n int.MaxValue");
-            Console.WriteLine($"int.MaxValue: {int.MaxValue}");
+            Console.WriteLine("\n ### Anlage Wochentag###");
+            Console.Write("Geben Sie den Wochentag ein :");
+            Wochentag WoTag = (Wochentag)(int.Parse(Console.ReadLine()));
+            Console.WriteLine($"Der gewählte Tag ist {WoTag}, im Angebot {PiGr}");
 
-
-            // ===========================================================
-            Console.WriteLine("\n ### int.Parse() ###");
-            Console.Write("Geben Sie eine Zahl ein: ");
-            string zahlAlsString = Console.ReadLine();
-            int gecastedString = int.Parse(zahlAlsString);
-            Console.WriteLine($"gecastedString is int: {gecastedString is int}"); // true
-
-
-            // ===========================================================
-            Console.WriteLine("\n ### (int)kommazahl ###");
-            double kommazahl = 45.23;
-            int ganzezahl = (int)kommazahl;
-            Console.WriteLine($"ganzezahl: {ganzezahl}");
-
-
-            // ===========================================================
-            Console.WriteLine("\n ### double einlesen ###");
-            Console.WriteLine("Geben Sie eine Double-Zahl ein: ");
-            double Input = double.Parse(Console.ReadLine()); // Eingabe mit Punkt - Punkt fliegt raus, Eingabe mit Komma funktioniert
-            Console.WriteLine(Input);
-
-            string ichWillEinDoubleSein = "3.55";
-            double doubleFromString = double.Parse(ichWillEinDoubleSein, System.Globalization.CultureInfo.InvariantCulture);
-            Console.WriteLine("doubleFromString: {0}", doubleFromString);
-
-
-
-
-
-
+            Console.WriteLine("\n ### Switch  ###");
+            switch (WoTag)
+            {
+                case Wochentag.Mo: case Wochentag.Di:
+                    Console.WriteLine($"Der gewählte Tag ist {WoTag} und im Angebot {Pizzagröße.Family}.");
+                    break;
+                case Wochentag.Mi: case Wochentag.Do:
+                    Console.WriteLine($"Der gewählte Tag ist {WoTag} und im Angebot {Pizzagröße.Groß}.");
+                    break;
+                case var TestWoTag when (TestWoTag > Wochentag.Do): //Case When mit Pattern Matching
+                    Console.WriteLine($"Das Wochenendangebot sind Pizzas der Größe {Pizzagröße.Mittel}.");
+                    break;
+            }
 
             #endregion
 

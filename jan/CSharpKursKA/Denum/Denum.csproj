@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5413373B-2BD3-4B91-ACB7-171BC98DDDC3}</ProjectGuid>
+    <ProjectGuid>{8C37538A-A346-46F3-A775-8733158152F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>m0HelloWorld</RootNamespace>
-    <AssemblyName>m0HelloWorld</AssemblyName>
+    <RootNamespace>Denum</RootNamespace>
+    <AssemblyName>Denum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
+    <Compile Include="Denum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

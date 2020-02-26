@@ -4,39 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dint
+namespace Ddouble
 {
-    class Program
+    class Ddouble
     {
         static void Main(string[] args)
         {
-            #region M02
+            #region MXX
 
             // ===========================================================
-            Console.WriteLine("\n ### int literale ###");
-            int myInt1 = 4;
-            int myInt2 = -3;
+            Console.Write("Geben Sie eine Double-Zahl ein: ");
+            double dinput = double.Parse(Console.ReadLine()); //Eingabe mit Punkt - Punkt fliegt raus
+            // Eingabe mit Komma - funktioniert
+            Console.WriteLine(dinput);
 
-            Console.WriteLine("\n # int possible values #");
-            // ===========================================================
-            Console.WriteLine("\n ### int.MinValue possible values ###");
-            Console.WriteLine($"int.MinValue: {int.MinValue}");
-            Console.WriteLine("\n ### int.MaxValue possible values ###");
-            Console.WriteLine($"int.MaxValue: {int.MaxValue}");
-
-            // ===========================================================
-            Console.WriteLine("\n ### int.parse() ###");
-            Console.Write("Geben Sie eine Zahl ein: ");
-            string ZahlAlsString = Console.ReadLine();
-            int GecastedString = int.Parse(ZahlAlsString);
-            Console.WriteLine($"gecastedString is int: {GecastedString.GetType()}");
-            Console.WriteLine($"gecastedString is int: {GecastedString is int}"); //true
-
-            // ===========================================================
-            Console.WriteLine("\n ### (int)kommazahl ###");
-            double kommazahl = 45.23;
-            int ganzzahl = (int)kommazahl;
-            Console.WriteLine($"ganzzahl: {ganzzahl}");
+            string ichWillEinDoubleSein = "3.55";
+            double dblFromString = double.Parse(ichWillEinDoubleSein, System.Globalization.CultureInfo.InvariantCulture);
+            Console.WriteLine("dblFromString: {0}", dblFromString);
 
 
             #endregion

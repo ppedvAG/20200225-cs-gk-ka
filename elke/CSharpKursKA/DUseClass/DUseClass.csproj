@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5413373B-2BD3-4B91-ACB7-171BC98DDDC3}</ProjectGuid>
+    <ProjectGuid>{E59AB80B-FE03-4225-B474-A6EF92829B20}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>m0HelloWorld</RootNamespace>
-    <AssemblyName>m0HelloWorld</AssemblyName>
+    <RootNamespace>DUseClass</RootNamespace>
+    <AssemblyName>DUseClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
+    <Compile Include="DUseClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dcLASS\DClass.csproj">
+      <Project>{25dac866-936f-4333-bb18-9c0b8ec4fa8d}</Project>
+      <Name>DClass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

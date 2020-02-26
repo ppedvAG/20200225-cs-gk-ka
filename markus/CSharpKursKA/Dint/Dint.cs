@@ -4,48 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DConsole
+namespace Dint
 {
-    class DConsole
+    class Dint
     {
         static void Main(string[] args)
         {
-            #region M1
+            #region M02
 
             // ===========================================================
-            Console.WriteLine("\n ### Console.WriteLine() ###");
-            // schreibt die Parameter zum Default-Output
-            // bei der Konsole-App ist es die Konsole cmd
-            // ein anderes Output könnte die Messagebox sein
-            // snippet dafür: cw
-            Console.WriteLine("ausgabe");
+            Console.WriteLine("\n ### int literale ###");
+            int myInt1 = 4;
+            int myInt2 = -3;
 
+            Console.WriteLine("\n # int possible values #");
+            // ===========================================================
+            Console.WriteLine("\n ### int.MinValue possible values ###");
+            Console.WriteLine($"int.MinValue: {int.MinValue}");
+            Console.WriteLine("\n ### int.MaxValue possible values ###");
+            Console.WriteLine($"int.MaxValue: {int.MaxValue}");
 
             // ===========================================================
-            Console.WriteLine("\n ### Console.WriteLine(string, arg0, arg1) ###");
-            int Alter = 40;
-            string Stadt = "KA";
-            Console.WriteLine("Max ist {0} Jahre alt und wohnt in {1}", Alter, Stadt);
-
-
-            // ===========================================================
-            Console.WriteLine("\n ### Console.Write() ###");
-            Console.Write("ausgabe2");
-            // gibt den Parameter aus und der Kursor bleibt in der gleichen Zeile
-
+            Console.WriteLine("\n ### int.parse() ###");
+            Console.Write("Geben Sie eine Zahl ein: ");
+            string ZahlAlsString = Console.ReadLine();
+            int GecastedString = int.Parse(ZahlAlsString);
+            Console.WriteLine($"gecastedString is int: {GecastedString.GetType()}");
+            Console.WriteLine($"gecastedString is int: {GecastedString is int}"); //true
 
             // ===========================================================
-            Console.WriteLine("\n ### Console.ReadLine() ###");
-            // Console.WriteLine("Geben Sie Ihren Namen ein: ");
-            // string Name = Console.ReadLine();
-            // Console.WriteLine("Sie heißen also {0}", Name);
-
-
-            // ===========================================================
-            Console.WriteLine("\n ### Console.OutputEncoding ###");
-            Console.WriteLine("Eurozeichen: €"); // steht ?
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("Eurozeichen mit Encoding.UTF8: €");
+            Console.WriteLine("\n ### (int)kommazahl ###");
+            double kommazahl = 45.23;
+            int ganzzahl = (int)kommazahl;
+            Console.WriteLine($"ganzzahl: {ganzzahl}");
 
 
             #endregion
@@ -57,9 +48,6 @@ namespace DConsole
             #region MORE FANCY STUFF
 
             // ===========================================================
-
-            //Vorzeitiges Beenden der Konsolenapplikation
-            Environment.Exit(0);
             // ===========================================================
             // ===========================================================
             // ===========================================================

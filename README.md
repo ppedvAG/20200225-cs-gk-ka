@@ -36,7 +36,7 @@ __Tag1:__​
 - [x] double
 - [x] Operatoren
 - [x] Casting
-- [ ] Enums
+- [x] Enums
 
 ## M30 | ARRAYS & CONTROLS
 
@@ -44,7 +44,7 @@ __Tag1:__​
 - [x] if else
 - [x] for
 - [x] while & do while
-- [ ] switch
+- [x] switch
 
 ===
 **Tag2:**​

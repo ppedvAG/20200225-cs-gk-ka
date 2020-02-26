@@ -4,44 +4,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DConsole
+namespace Dint
 {
-    class Program
+    class Dint
     {
         static void Main(string[] args)
         {
-            #region M1
+            #region M2
 
             // ===========================================================
-            Console.WriteLine("\n ### Console.WriteLine() ###");
-            Console.WriteLine("ausgabe");
+            Console.WriteLine("\n ### int literale ###");
+            int myInt1 = 4;
+            int myInt2 = -3;
 
 
+            Console.WriteLine("\n # int possible values #");
             // ===========================================================
-            Console.WriteLine("\n ### Console.WriteLine(string, arg0) ###");
-            int Alter = 40;
-            string Stadt = "KA";
-            Console.WriteLine("Max ist {0} Jahre alt und wohnt in {1}", Alter, Stadt);
-
-
-            // ===========================================================
-            Console.WriteLine("\n ### Console.Write(string, arg0) ###");
-            Console.Write("ausgabe2");
+            Console.WriteLine("\n int.MinValue");
+            Console.WriteLine($"int.MinValue: {int.MinValue}");
+            Console.WriteLine("\n int.MaxValue");
+            Console.WriteLine($"int.MaxValue: {int.MaxValue}");
 
 
             // ===========================================================
-            Console.WriteLine("\n ### Console.WriteLine(string, arg0) ###");
-            //Console.WriteLine("Geben Sie Ihren Namen ein: ");
-            //string Name = Console.ReadLine();
-            //Console.WriteLine("Sie heißen also {0}", Name);
+            Console.WriteLine("\n ### int.Parse() ###");
+            Console.Write("Geben Sie eine Zahl ein: ");
+            string zahlAlsString = Console.ReadLine();
+            int gecastedString = int.Parse(zahlAlsString);
+            Console.WriteLine($"gecastedString is int: {gecastedString is int}"); // true
 
 
             // ===========================================================
-            Console.WriteLine("\n ### Console.OutputEncoding ###");
-            Console.WriteLine("Eurozeichen: €");
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("Eurozeichen mit Encoding.UTF8: €");
+            Console.WriteLine("\n ### (int)kommazahl ###");
+            double kommazahl = 45.23;
+            int ganzezahl = (int)kommazahl;
+            Console.WriteLine($"ganzezahl: {ganzezahl}");
 
+
+            // ===========================================================
+            Console.WriteLine("\n ### double einlesen ###");
+            Console.WriteLine("Geben Sie eine Double-Zahl ein: ");
+            double Input = double.Parse(Console.ReadLine()); // Eingabe mit Punkt - Punkt fliegt raus, Eingabe mit Komma funktioniert
+            Console.WriteLine(Input);
+
+            string ichWillEinDoubleSein = "3.55";
+            double doubleFromString = double.Parse(ichWillEinDoubleSein, System.Globalization.CultureInfo.InvariantCulture);
+            Console.WriteLine("doubleFromString: {0}", doubleFromString);
 
 
 

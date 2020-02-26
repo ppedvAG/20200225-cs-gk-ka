@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F76A13CE-B065-43B6-92F7-A1145EFC4962}</ProjectGuid>
+    <ProjectGuid>{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DConsole</RootNamespace>
-    <AssemblyName>DConsole</AssemblyName>
+    <RootNamespace>Dmethoden</RootNamespace>
+    <AssemblyName>Dmethoden</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dconsole.cs" />
+    <Compile Include="Dmethoden.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

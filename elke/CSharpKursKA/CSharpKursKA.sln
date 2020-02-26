@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DClass", "dcLASS\DClass.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUseClass", "DUseClass\DUseClass.csproj", "{E59AB80B-FE03-4225-B474-A6EF92829B20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Fahrzeug", "M5Fahrzeug\M5Fahrzeug.csproj", "{5846400B-4C45-4569-80A9-E494FAFA784C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5UseFahrzeug", "M5UseFahrzeug\M5UseFahrzeug.csproj", "{33AF0B3F-8AEA-4236-ADB9-7D4423361B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{E59AB80B-FE03-4225-B474-A6EF92829B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E59AB80B-FE03-4225-B474-A6EF92829B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E59AB80B-FE03-4225-B474-A6EF92829B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5846400B-4C45-4569-80A9-E494FAFA784C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5846400B-4C45-4569-80A9-E494FAFA784C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5846400B-4C45-4569-80A9-E494FAFA784C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5846400B-4C45-4569-80A9-E494FAFA784C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AF0B3F-8AEA-4236-ADB9-7D4423361B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AF0B3F-8AEA-4236-ADB9-7D4423361B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AF0B3F-8AEA-4236-ADB9-7D4423361B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AF0B3F-8AEA-4236-ADB9-7D4423361B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

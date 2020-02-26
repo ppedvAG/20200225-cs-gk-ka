@@ -2,8 +2,6 @@
 
 Ein Kurs von PPEDV :rocket:
 
-TEST von Markus
-
 [Notizen Anna](./anna/a-notes.md)
 
 [Notizen Elke](./elke/e-notes.md)

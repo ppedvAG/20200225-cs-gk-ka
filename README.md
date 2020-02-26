@@ -2,8 +2,6 @@
 
 Ein Kurs von PPEDV :rocket:
 
-TEST von Markus
-
 [Notizen Anna](./anna/a-notes.md)
 
 [Notizen Elke](./elke/e-notes.md)
@@ -18,49 +16,70 @@ __Tag1:__​
 
 ## M00 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
-- [ ] Git
+- [x] Greeter
+- [x] VS
+- [x] Git
 
 ## M10 | GETTING STARTED
 
-- [ ] Intro
-- [ ] Ecosystem
-- [ ] .NET
-- [ ] Console
+- [x] Intro
+- [x] Ecosystem
+- [x] .NET
+- [x] Console
 
 ## M20 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] bool
-- [ ] string
-- [ ] int
-- [ ] double
-- [ ] Operatoren
-- [ ] Casting
+- [x] Datentypen
+- [x] bool
+- [x] string
+- [x] int
+- [x] double
+- [x] Operatoren
+- [x] Casting
 - [ ] Enums
 
 ## M30 | ARRAYS & CONTROLS
 
-- [ ] Arrays
-- [ ] if else
-- [ ] for
-- [ ] while & do while
+- [x] Arrays
+- [x] if else
+- [x] for
+- [x] while & do while
 - [ ] switch
 
+===
 **Tag2:**​
 
-Funktionen und Parameter​
+## M40 | FUNCTIONS
 
-Objektorientierte Programmierung (Klassen/Objekte)​
+- [ ] args
+- [ ] params
+- [ ] return
+- [ ] overloads
 
-Vererbung​
+## M50 | CLASSES & OOP
 
-Interfaces und Polymorphismus​
+- [ ] constructor
+- [ ] fields
+- [ ] props
+- [ ] class methods
+- [ ] access modifier
+- [ ] inctances / objects
+- [ ] destructor
+
+## M60 | INHERITENCE / VERERBUNG
+
+- [ ] base
+- [ ] virtual & override methods
+- [ ] abstract methods
+
+## M70 | POLYMORPHISM
+
+- [ ] interfaces
+
+===
+**Tag3:**​
 
 Generische Datentypen​
-
-**Tag3:**​
 
 Benutzeroberfläche gestalten mit WindowsForms​
 

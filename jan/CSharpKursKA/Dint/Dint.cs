@@ -41,6 +41,20 @@ namespace Dint
             Console.WriteLine($"ganzezahl: {ganzezahl}");
 
 
+            // ===========================================================
+            Console.WriteLine("\n ### double einlesen ###");
+            Console.WriteLine("Geben Sie eine Double-Zahl ein: ");
+            double Input = double.Parse(Console.ReadLine()); // Eingabe mit Punkt - Punkt fliegt raus, Eingabe mit Komma funktioniert
+            Console.WriteLine(Input);
+
+            string ichWillEinDoubleSein = "3.55";
+            double doubleFromString = double.Parse(ichWillEinDoubleSein, System.Globalization.CultureInfo.InvariantCulture);
+            Console.WriteLine("doubleFromString: {0}", doubleFromString);
+
+
+
+
+
 
 
             #endregion

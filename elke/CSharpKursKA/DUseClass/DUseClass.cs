@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DClass; // wurde zuerst über referenzen eingebunden, das using muss manuell gemacht werden
+using DLibrary; // wurde zuerst über referenzen eingebunden, das using muss manuell gemacht werden
 
 namespace DUseClass
 {
@@ -19,7 +19,7 @@ namespace DUseClass
             string str = myClass.sGetFields();
             Console.WriteLine($"str: {str} ist ein string? {str is string}");//Ergebnis 0 da str + integer
 
-            TestClassProperties myClassProperties = new DClass.TestClassProperties("Max", "Mustermann");
+            TestClassProperties myClassProperties = new DLibrary.TestClassProperties("Max", "Mustermann");
             Console.WriteLine($"Inhalt der Properties FirstName {myClassProperties.FirstName} and LastName {myClassProperties.LastName}");
             
             

@@ -22,5 +22,17 @@ namespace MyFirstWForm
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // links
+            btnLeft.Left++;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // rechts
+            btnRight.Left--;
+        }
     }
 }

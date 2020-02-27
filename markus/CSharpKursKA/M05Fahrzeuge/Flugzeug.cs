@@ -6,17 +6,26 @@ using System.Threading.Tasks;
 
 namespace M05Fahrzeuge
 {
-    public class Flugzeug : FahrzeugLib
+    public class Flugzeug : FahrzeugLib,IRollbar
     {
         public int AnzahlTriebwerke { get; set; }
-        public Flugzeug(string strName, int MaxV, int iPreis, int AktuellV,int anzahlTriebwerke) : base(strName, MaxV, iPreis, AktuellV)
+        public int AnzahlRäder { get ; set ; }
+
+        public Flugzeug(string strName, int MaxV, int iPreis, int anzahlTriebwerke) : base(strName, MaxV, iPreis)
         {
             AnzahlTriebwerke = anzahlTriebwerke;
+            this.AnzahlRäder = 10;
         }
 
         public override string BeschreibeMich()
         {
             return base.BeschreibeMich() + $"\nAnzahl Triebwerke: {AnzahlTriebwerke}";
+        }
+
+        public void Crash()
+        {
+            Console.WriteLine("Da war ein Vogel im Weg.");
+            this.AnzahlTriebwerke--;
         }
     }
 }

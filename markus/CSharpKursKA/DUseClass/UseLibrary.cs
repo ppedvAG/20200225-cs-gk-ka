@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DClass;
+using DLibrary;
 
 namespace DUseClass
 {
@@ -17,7 +17,7 @@ namespace DUseClass
             string str = newclass.GetFields();
             Console.WriteLine($"str: {str}"); // 0 und nicht NULL wegen myField2 = int
 
-            MyClassWProps myclasswprops = new DClass.MyClassWProps("Max", "Mustermann");
+            MyClassWProps myclasswprops = new DLibrary.MyClassWProps("Max", "Mustermann");
             Console.WriteLine($"Mein Name ist: {myclasswprops.Firstname} {myclasswprops.Lastname}");
 
             //========================================

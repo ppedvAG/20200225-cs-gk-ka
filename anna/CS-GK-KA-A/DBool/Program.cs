@@ -20,7 +20,7 @@ namespace DBool
             Console.WriteLine("\n ### bool operators ###");
             bool myB1 = true;
             bool myB2 = false; 
-            bool myB3 0 true;
+            bool myB3 = true;
 
 
             Console.WriteLine("\n ### bool operators: == ###");

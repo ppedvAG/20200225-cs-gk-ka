@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B2D0503-E6A7-4B8E-BDFE-67404EA2E674}</ProjectGuid>
+    <ProjectGuid>{BF8B645A-E59B-486D-B6FE-CC3703142398}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M05CallFahrzeug</RootNamespace>
-    <AssemblyName>M05CallFahrzeug</AssemblyName>
+    <RootNamespace>DUseClass</RootNamespace>
+    <AssemblyName>DUseClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UseFahrzeugProg.cs" />
+    <Compile Include="UseClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\M05Fahrzeuge\M05FahrzeugeLib.csproj">
-      <Project>{b556c428-2ee8-461e-a4cd-a4da21581373}</Project>
-      <Name>M05FahrzeugeLib</Name>
+    <ProjectReference Include="..\DClass\DLibrary.csproj">
+      <Project>{ca534cf1-be4a-48a0-8632-9d4c323a79f0}</Project>
+      <Name>DLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

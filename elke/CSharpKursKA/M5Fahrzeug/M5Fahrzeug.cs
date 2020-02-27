@@ -8,31 +8,38 @@ namespace M5Fahrzeug
 {
     public class M5FahrzeugClass
     {
+        //############ Properties ###################
         //  -Name
         public string sName { get; set; }
 
         //   -Maximal-Geschwindigkeit
         public int iMaxGeschwindigkeit { get; set; }
 
-
         //  -Preis
         public int iPreis { get; set; }
-
 
         //   -Aktuelle-Geschwindigkeit
         public int iaktGeschwindigkeit { get; set; }
 
-
         //   -Zustand(Stehend/Fahrend)
         public string sZustand { get; set; }
 
+
+        //########Konstruktor ###################
         public M5FahrzeugClass(string Name, int MaxG, int Preis, int AktG, string Zustand)
         {
-            sName = Name;
-            iMaxGeschwindigkeit = MaxG;
-            iPreis = Preis;
-            iaktGeschwindigkeit = AktG;
-            sZustand = Zustand;
+            //this -> für diese Klasse / Namensbereich
+            this.sName = Name;
+            this.iMaxGeschwindigkeit = MaxG;
+            this.iPreis = Preis;
+            this.iaktGeschwindigkeit = AktG;
+            this.sZustand = Zustand;
+        }
+
+        //####### METHODEN ###############
+        public string BeschreibeMich()
+        {
+            return $"{sName} ({iPreis} Euro): Maximale Geschwindigkeit: {iMaxGeschwindigkeit} km/h | Zustand: {sZustand}| Mom. Geschwindigkeit: {iaktGeschwindigkeit}";
         }
 
         public string StarteMotor ()
@@ -62,4 +69,6 @@ namespace M5Fahrzeug
         }
 
     }
+
 }
+

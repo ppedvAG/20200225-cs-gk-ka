@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DConsole", "DConsole\DConso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ddouble", "Ddouble\Ddouble.csproj", "{28DB8C91-8E52-48C9-B3FF-675EE7DDBEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DClass", "DClass\DClass.csproj", "{ED3FEC72-5F46-4BD4-AB9B-E1DFC5EF8FA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibrary", "DClass\DLibrary.csproj", "{ED3FEC72-5F46-4BD4-AB9B-E1DFC5EF8FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuseClass", "DuseClass\DuseClass.csproj", "{0A7AD19E-2CBB-432C-8A3C-EDC27EF79DBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibraryConsument", "DuseClass\DLibraryConsument.csproj", "{0A7AD19E-2CBB-432C-8A3C-EDC27EF79DBC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBool", "DBool\DBool.csproj", "{2679F572-11EE-490F-BBCF-594E713F6078}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden", "MethodenFr\Methoden.csproj", "{CF7017B0-DB5D-4580-B6BF-C3FA42B02A45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner", "TaschenrechnerFr\Taschenrechner.csproj", "{4A0F2B76-A715-488F-ACF7-C405B30EFBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Fahrzeug", "M5Fahrzeug\M5Fahrzeug.csproj", "{3C0AF70C-8600-4DAC-B224-F257135730DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5UseFahrzeug", "M5UseFahrzeug\M5UseFahrzeug.csproj", "{9D4FE7A0-7BE8-49DE-AC9E-E5D951950491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{4A0F2B76-A715-488F-ACF7-C405B30EFBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0F2B76-A715-488F-ACF7-C405B30EFBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A0F2B76-A715-488F-ACF7-C405B30EFBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0AF70C-8600-4DAC-B224-F257135730DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0AF70C-8600-4DAC-B224-F257135730DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0AF70C-8600-4DAC-B224-F257135730DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0AF70C-8600-4DAC-B224-F257135730DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4FE7A0-7BE8-49DE-AC9E-E5D951950491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4FE7A0-7BE8-49DE-AC9E-E5D951950491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4FE7A0-7BE8-49DE-AC9E-E5D951950491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4FE7A0-7BE8-49DE-AC9E-E5D951950491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

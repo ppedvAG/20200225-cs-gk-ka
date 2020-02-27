@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace DClass
 {
     // Die Methode Random.Next() wollen wir erben und anpassen
-    class MyClassWInheritance : Random
+    public class MyClassWInheritance : Random
     { 
-        public int NextInclusive(int min, int max)
+        public int MaxInclusive(int min, int max)
         {
             return base.Next(min, max + 1);
         }

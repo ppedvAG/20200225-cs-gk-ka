@@ -8,6 +8,8 @@ namespace MyFahrrad
 {
     public class Fahrrad
     {
+        public  enum ZFahrrad {  stehend, fahrend }
+        public ZFahrrad Zustand { get; set; }
         public string Name { get; set; }
         public int Reifengröße { get; set; }
         public int Sattelhöhe { get; set; }
@@ -15,6 +17,7 @@ namespace MyFahrrad
 
         public Fahrrad(string Nm, int Rg, int Sh, int Rd)
         {
+            Zustand = ZFahrrad.stehend;
             Name = Nm;
             Reifengröße = Rg;
             Sattelhöhe = Sh;
@@ -25,6 +28,19 @@ namespace MyFahrrad
         {
             Sattelhöhe = Sattelhöhe + wert;
             return Sattelhöhe;
+        }
+
+        public ZFahrrad Fahren()
+        {
+            if(Zustand == ZFahrrad.stehend)
+            {
+                Zustand = ZFahrrad.fahrend;
+            }
+            else
+            {
+                Zustand = ZFahrrad.stehend;
+            }
+            return Zustand;
         }
     }
 }

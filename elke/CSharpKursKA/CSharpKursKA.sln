@@ -25,9 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denum", "Denum\Denum.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMethoden", "DMethoden\DMethoden.csproj", "{8B5C80D8-9770-4B0E-8903-0B7BBF611FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DClass", "dcLASS\DClass.csproj", "{25DAC866-936F-4333-BB18-9C0B8EC4FA8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibrary", "dcLASS\DLibrary.csproj", "{25DAC866-936F-4333-BB18-9C0B8EC4FA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUseClass", "DUseClass\DUseClass.csproj", "{E59AB80B-FE03-4225-B474-A6EF92829B20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibraryConsument", "DUseClass\DLibraryConsument.csproj", "{E59AB80B-FE03-4225-B474-A6EF92829B20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Fahrzeug", "M5Fahrzeug\M5Fahrzeug.csproj", "{5846400B-4C45-4569-80A9-E494FAFA784C}"
 EndProject

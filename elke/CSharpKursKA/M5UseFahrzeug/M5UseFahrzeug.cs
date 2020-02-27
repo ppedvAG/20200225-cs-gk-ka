@@ -13,10 +13,10 @@ namespace M5UseFahrzeug
         {
             M5FahrzeugClass myFahrzeug = new M5FahrzeugClass("Fahrzeug1",150,500,100,"stehend");
 
-            Console.WriteLine($"Name: {myFahrzeug.sName}");//Ergebnis 0 da str + integer
-            Console.WriteLine($"MaxGesch: {myFahrzeug.iMaxGeschwindigkeit}");//Ergebnis 0 da str + integer
-            Console.WriteLine($"Preis: {myFahrzeug.iPreis}");//Ergebnis 0 da str + integer
-            Console.WriteLine($"aktuelle Geschwindigkeit: {myFahrzeug.iaktGeschwindigkeit}");//Ergebnis 0 da str + integer
+            Console.WriteLine($"Name: {myFahrzeug.sName}");
+            Console.WriteLine($"MaxGesch: {myFahrzeug.iMaxGeschwindigkeit}");
+            Console.WriteLine($"Preis: {myFahrzeug.iPreis}");
+            Console.WriteLine($"aktuelle Geschwindigkeit: {myFahrzeug.iaktGeschwindigkeit}");
             Console.WriteLine($"Zustand: {myFahrzeug.sZustand}");
 
             myFahrzeug.StarteMotor();
@@ -28,10 +28,6 @@ namespace M5UseFahrzeug
             Console.Write("Bitte geben Sie eine Beschleunigung ein: ");
             int newkmh = int.Parse(Console.ReadLine());
             Console.WriteLine($"Beschleunigung: {newkmh} neue Geschwindigkeit: { myFahrzeug.Beschleunigung(newkmh)}");
-            
-
-
-
 
 
             Console.ReadKey();

@@ -37,6 +37,7 @@ namespace M05Fahrzeuge
             this.AktuelleGeschwindigkeit = AktuellV;
         }
 
+
         // Methoden
         public int Beschleunigen()
         {
@@ -65,7 +66,7 @@ namespace M05Fahrzeuge
             return Zustand;
         }
 
-        public string BeschreibeMich()
+        public virtual string BeschreibeMich()
         {
             return $"Auto: {Name}\nMax Geschw: {MaxGeschwindigkeit}\nPreis: {Preis} €\nAktuelle Geschw: {AktuelleGeschwindigkeit} km/h\nZustand: {Zustand}";
         }

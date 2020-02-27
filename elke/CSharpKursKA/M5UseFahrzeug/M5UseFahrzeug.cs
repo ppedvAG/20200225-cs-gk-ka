@@ -25,9 +25,19 @@ namespace M5UseFahrzeug
             myFahrzeug.StoppeMotor();
             Console.WriteLine($"Zustand: {myFahrzeug.sZustand}");
 
-            Console.Write("Bitte geben Sie eine Beschleunigung ein: ");
-            int newkmh = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Beschleunigung: {newkmh} neue Geschwindigkeit: { myFahrzeug.Beschleunigung(newkmh)}");
+            //Console.Write("Bitte geben Sie eine Beschleunigung ein: ");
+            //int newkmh = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"Beschleunigung: {newkmh} neue Geschwindigkeit: { myFahrzeug.Beschleunigung(newkmh)}");
+
+            FZFlugzeug myFZFlugzeug = new FZFlugzeug("Flugzeug1", 150, 500, 100, "stehend", "Boing");
+            
+            Console.WriteLine($"Flugzeug: {myFZFlugzeug.BeschreibeMich()}");
+
+            FZPkw myFZPkw  = new FZPkw("PKW1", 150, 500, 100, "stehend", 6);
+            Console.WriteLine($"PKW: {myFZPkw.BeschreibeMich()}");
+
+            FZSchiff myFZSchiff = new FZSchiff("PKW1", 150, 500, 100, "stehend", "Kreuzer");
+            Console.WriteLine($"Schiff: {myFZSchiff.BeschreibeMich()}");
 
 
             Console.ReadKey();

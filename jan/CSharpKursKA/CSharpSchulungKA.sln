@@ -23,15 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denum", "Denum\Denum.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmethoden", "Dmethoden\Dmethoden.csproj", "{D9E66AC5-5565-406F-B2D0-3E9B7BB3EE51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DClass", "DClass\DClass.csproj", "{CA534CF1-BE4A-48A0-8632-9D4C323A79F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibrary", "DClass\DLibrary.csproj", "{CA534CF1-BE4A-48A0-8632-9D4C323A79F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUseClass", "DUseClass\DUseClass.csproj", "{BF8B645A-E59B-486D-B6FE-CC3703142398}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibraryConsument", "DUseClass\DLibraryConsument.csproj", "{BF8B645A-E59B-486D-B6FE-CC3703142398}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFahrzeug", "MyFahrzeug\MyFahrzeug.csproj", "{B4AAB67B-48AD-41E1-AF42-02568268413C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseFahrzeug", "UseFahrzeug\UseFahrzeug.csproj", "{AB2695B4-8C07-421D-8FDD-F2613321B399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFahrrad", "MyFahrrad\MyFahrrad.csproj", "{2CC27C90-756B-49BF-9AAF-6B2AADA6022D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFahrradTest", "MyFahrrad\MyFahrradTest.csproj", "{2CC27C90-756B-49BF-9AAF-6B2AADA6022D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

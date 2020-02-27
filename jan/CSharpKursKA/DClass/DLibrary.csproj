@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyClass.cs" />
+    <Compile Include="MyClassWInheritance.cs" />
     <Compile Include="MyClassWProps.cs" />
+    <Compile Include="MyClWInhNCtor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

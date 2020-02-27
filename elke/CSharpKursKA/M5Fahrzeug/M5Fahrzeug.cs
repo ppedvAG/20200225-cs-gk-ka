@@ -37,9 +37,9 @@ namespace M5Fahrzeug
         }
 
         //####### METHODEN ###############
-        public string BeschreibeMich()
+        public virtual string BeschreibeMich()
         {
-            return $"{sName} ({iPreis} Euro): Maximale Geschwindigkeit: {iMaxGeschwindigkeit} km/h | Zustand: {sZustand}| Mom. Geschwindigkeit: {iaktGeschwindigkeit}";
+            return $"\n {sName} ({iPreis} Euro): \n Maximale Geschwindigkeit: {iMaxGeschwindigkeit} km/h \n Zustand: {sZustand} \n Mom. Geschwindigkeit: {iaktGeschwindigkeit} \n";
         }
 
         public string StarteMotor ()

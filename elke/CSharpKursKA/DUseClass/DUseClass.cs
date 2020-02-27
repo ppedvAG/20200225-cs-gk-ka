@@ -33,7 +33,7 @@ namespace DUseClass
             myRandom.Next(2, 5);
             Console.WriteLine($"Inhalt der myRandom {myRandom.Next(2, 3)}");
 
-            Console.WriteLine("\n ##### Inheritance ###");
+            Console.WriteLine("\n ##### Inheritance & Constructor : BASE ###");
             TestClassWInhNConstrucor myTestClassWInhNConstrucor = new TestClassWInhNConstrucor("Kevin Pascal", "Müller", "KleinDupfingen, Deppenstraße 1");
 
             Console.WriteLine($"Inhalt der myTestClassWInhNConstrucor {myTestClassWInhNConstrucor.BeschreibeMich()}");

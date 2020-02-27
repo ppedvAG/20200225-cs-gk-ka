@@ -12,8 +12,6 @@ Ein Kurs von PPEDV :rocket:
 
 [Notizen Vadzim](./vadzim/v-notes.md)
 
-__Tag1:__​
-
 ## M00 | WARMING UP
 
 - [x] Greeter
@@ -46,9 +44,6 @@ __Tag1:__​
 - [x] while & do while
 - [x] switch
 
-===
-**Tag2:**​
-
 ## M40 | FUNCTIONS
 
 - [x] arguments
@@ -77,12 +72,17 @@ __Tag1:__​
 
 - [ ] interfaces
 
-===
-**Tag3:**​
+## M80 | GENERIC DATA STRUCTURES
 
-Generische Datentypen​
+- [ ] List`<T>`
+- [ ] Stack`<T>`
+- [ ] Queue`<T>`
+- [ ] Dictionary`<T1, T2>`
+- [ ] Hachtable
 
-Benutzeroberfläche gestalten mit WindowsForms​
+## M90 | WINDOWS FORMS
+
+## OFFENE AUSWAHL
 
 Verwendung von Events​
 
@@ -91,8 +91,6 @@ Exception-Handling​
 Unit-Tests oder (ein anderes Thema)​
 
 Dateizugriff​
-
-**Tag4:**​
 
 Datenbankzugriff mit ADO.NET​
 

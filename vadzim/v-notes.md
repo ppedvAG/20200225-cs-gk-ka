@@ -19,7 +19,7 @@
 | shortcut | effect |
 | ------- | ------ |
 | `tab` | autocomplete |
-| `ctrl d` | copy line |
+| `ctrl d` | copy line or selected code |
 | `ctrl j` | autocomplete |
 | `ctrl k d` | format code |
 | `ctrl k c` | comment one or more lines |

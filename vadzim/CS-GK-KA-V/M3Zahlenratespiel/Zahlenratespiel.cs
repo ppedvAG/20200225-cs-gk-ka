@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M3Zahlenratespiel
 {
-    class Program
+    class Zahlenratespiel
     {
         static void Main(string[] args)
         {

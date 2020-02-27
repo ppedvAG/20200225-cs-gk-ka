@@ -73,6 +73,14 @@ namespace DArray
             #region MORE FANCY STUFF
 
             // ===========================================================
+            Console.WriteLine("\n ### kann ich bei einem Array mit Länge 3 auf Element 4 zugreifen? ###");
+            // sind Arrays in C# dynamisch? nein!
+            int[] testDynamic = new int[] { 1, 2, 3 };
+            // testDynamic[3] = 3; // System.IndexOutOfRangeException
+            Console.WriteLine(testDynamic.IsFixedSize); // True
+            
+            
+            // ===========================================================
             // ===========================================================
             // ===========================================================
             // ===========================================================

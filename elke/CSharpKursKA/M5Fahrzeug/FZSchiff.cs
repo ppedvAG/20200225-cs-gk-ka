@@ -12,6 +12,7 @@ namespace M5Fahrzeug
         public int Beladbar { get; set; }
 
 
+
         public M5FahrzeugClass Ladung { get; set; }
 
         public FZSchiff(string Name, int MaxG, int Preis, int AktG, string Zustand, string schiffart) : base(Name, MaxG, Preis, AktG, Zustand)

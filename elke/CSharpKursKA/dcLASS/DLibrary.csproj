@@ -7,8 +7,8 @@
     <ProjectGuid>{25DAC866-936F-4333-BB18-9C0B8EC4FA8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>dcLASS</RootNamespace>
-    <AssemblyName>dcLASS</AssemblyName>
+    <RootNamespace>DLibrary</RootNamespace>
+    <AssemblyName>DLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMyInterface.cs" />
+    <Compile Include="MyFancyClass.cs" />
+    <Compile Include="MyFancyClass2.cs" />
     <Compile Include="TestClass1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestClass1WInheritence.cs" />

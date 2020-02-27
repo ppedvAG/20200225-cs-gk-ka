@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FZFlugzeug.cs" />
+    <Compile Include="FZPkw.cs" />
+    <Compile Include="FZSchiff.cs" />
     <Compile Include="M5Fahrzeug.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

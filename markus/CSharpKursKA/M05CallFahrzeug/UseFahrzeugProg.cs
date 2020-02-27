@@ -24,6 +24,9 @@ namespace M05CallFahrzeug
             //int FZustand = int.Parse(Console.ReadLine());
             //Fahrzeug fahrzeug = new Fahrzeug(FName, FMaxGeschw, FPreis, FAktuellV, FZustand);
             FahrzeugLib fahrzeug = new FahrzeugLib("BMW", 200, 20000, 0);
+            FahrzeugLib flugzeug = new Flugzeug("Boeing",900,9500000,0,3);
+            FahrzeugLib pkw = new PKW("Audi",250,35000,0,4);
+            FahrzeugLib schiff = new Schiff("Titanic",60,2500000,0,true);
 
             //Console.WriteLine($"Name: {fahrzeug.Name}");
             //Console.WriteLine($"Max Geschw: {fahrzeug.MaxGeschwindigkeit}");
@@ -32,9 +35,15 @@ namespace M05CallFahrzeug
             //Console.WriteLine($"Zustand: {fahrzeug.Zustand}");
 
             Console.WriteLine(fahrzeug.BeschreibeMich());
+            Console.WriteLine("\n###########################");
+            Console.WriteLine(flugzeug.BeschreibeMich());
+            Console.WriteLine("\n###########################");
+            Console.WriteLine(pkw.BeschreibeMich());
+            Console.WriteLine("\n###########################");
+            Console.WriteLine(schiff.BeschreibeMich());
 
             Console.WriteLine();
-            Console.WriteLine("###########################");
+            Console.WriteLine("\n###########################");
 
             bool beenden = true;
             do

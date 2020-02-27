@@ -22,6 +22,21 @@ namespace DUseClass
             TestClassProperties myClassProperties = new DClass.TestClassProperties("Max", "Mustermann");
             Console.WriteLine($"Inhalt der Properties FirstName {myClassProperties.FirstName} and LastName {myClassProperties.LastName}");
             
+            
+            Console.WriteLine("\n ##### Inheritance ###");
+
+            TestClass1WInheritence myClass1WInheritence = new TestClass1WInheritence();
+            myClass1WInheritence.NextInclusive(2, 3);
+            Console.WriteLine($"Inhalt der myClass1WInheritence {myClass1WInheritence.NextInclusive(2, 3)}");
+
+            Random myRandom = new Random();
+            myRandom.Next(2, 5);
+            Console.WriteLine($"Inhalt der myRandom {myRandom.Next(2, 3)}");
+
+            Console.WriteLine("\n ##### Inheritance & Constructor : BASE ###");
+            TestClassWInhNConstrucor myTestClassWInhNConstrucor = new TestClassWInhNConstrucor("Kevin Pascal", "Müller", "KleinDupfingen, Deppenstraße 1");
+
+            Console.WriteLine($"Inhalt der myTestClassWInhNConstrucor {myTestClassWInhNConstrucor.BeschreibeMich()}");
 
             Console.ReadKey();
         }

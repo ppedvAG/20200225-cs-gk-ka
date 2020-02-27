@@ -19,11 +19,11 @@ namespace MyFahrzeug
         // constructor
         public MyFahrzeugClass(string Nm, int MG, int Pr, int AG, string Zs)
         {
-            Name = Nm;
-            MaximalGeschwindigkeit = MG;
-            Preis = Pr;
-            AktuelleGeschwindigkeit = AG;
-            Zustand = Zs;
+            this.Name = Nm;
+            this.MaximalGeschwindigkeit = MG;
+            this.Preis = Pr;
+            this.AktuelleGeschwindigkeit = AG;
+            this.Zustand = Zs;
         }
 
         // methoden

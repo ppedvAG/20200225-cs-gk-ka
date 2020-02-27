@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DClass
+namespace DLibrary
 {
     public class MyClWInhNCtor : MyClassWProps
 

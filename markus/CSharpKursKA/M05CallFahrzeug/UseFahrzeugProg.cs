@@ -24,9 +24,15 @@ namespace M05CallFahrzeug
             //int FZustand = int.Parse(Console.ReadLine());
             //Fahrzeug fahrzeug = new Fahrzeug(FName, FMaxGeschw, FPreis, FAktuellV, FZustand);
             FahrzeugLib fahrzeug = new FahrzeugLib("BMW", 200, 20000);
-            FahrzeugLib flugzeug = new Flugzeug("Boeing",900,9500000,3);
-            FahrzeugLib pkw = new PKW("Audi",250,35000,5);
-            FahrzeugLib schiff = new Schiff("Titanic",60,2500000,true);
+            Flugzeug flugzeug = new Flugzeug("Boeing",900,9500000,3);
+            PKW pkw = new PKW("Audi",250,35000,5);
+            Schiff schiff = new Schiff("Titanic",60,2500000,true);
+            foreach (var item in flugzeug)
+            {
+                Console.WriteLine($"Eintrag: {item}");
+                
+            }
+                Console.WriteLine("\n###########################");
 
             //Console.WriteLine($"Name: {fahrzeug.Name}");
             //Console.WriteLine($"Max Geschw: {fahrzeug.MaxGeschwindigkeit}");

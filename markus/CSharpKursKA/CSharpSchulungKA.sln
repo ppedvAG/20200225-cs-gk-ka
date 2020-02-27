@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05FahrzeugeLib", "M05Fahrz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05CallFahrzeug", "M05CallFahrzeug\M05CallFahrzeug.csproj", "{6B2D0503-E6A7-4B8E-BDFE-67404EA2E674}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWForm", "MyFirstWForm\MyFirstWForm.csproj", "{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{6B2D0503-E6A7-4B8E-BDFE-67404EA2E674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B2D0503-E6A7-4B8E-BDFE-67404EA2E674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2D0503-E6A7-4B8E-BDFE-67404EA2E674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

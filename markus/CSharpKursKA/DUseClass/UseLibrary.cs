@@ -7,7 +7,7 @@ using DClass;
 
 namespace DUseClass
 {
-    class UseClass
+    class UseLibrary
     {
         static void Main(string[] args)
         {

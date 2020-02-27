@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DLibrary")]
+[assembly: AssemblyTitle("MyFirstWForm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DLibrary")]
+[assembly: AssemblyProduct("MyFirstWForm")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ca534cf1-be4a-48a0-8632-9d4c323a79f0")]
+[assembly: Guid("f4998d72-a1d3-4172-a0dd-462d56ba6575")]
 
 // Version information for an assembly consists of the following four values:
 //

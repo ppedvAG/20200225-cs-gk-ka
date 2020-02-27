@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyClassWInheritance.cs" />
     <Compile Include="MyClass.cs" />
+    <Compile Include="MyClassWInhNCtor.cs" />
     <Compile Include="MyClassWProps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

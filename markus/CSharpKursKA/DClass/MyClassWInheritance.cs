@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DClass
+namespace DLibrary
 {
     // Die Methode Random.Next() wollen wir erben und anpassen
     public class MyClassWInheritance : Random

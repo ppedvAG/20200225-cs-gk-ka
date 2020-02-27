@@ -28,14 +28,15 @@ namespace M05Fahrzeuge
         public FZustand Zustand { get; set; }
 
         // Konstruktoren
-        public FahrzeugLib(string strName, int MaxV, int iPreis, int AktuellV)
+        public FahrzeugLib(string strName, int MaxV, int iPreis)
         {
             this.Zustand = FZustand.Stehend;
             this.Name = strName;
             this.MaxGeschwindigkeit = MaxV;
             this.Preis = iPreis;
-            this.AktuelleGeschwindigkeit = AktuellV;
+            this.AktuelleGeschwindigkeit = 0;
         }
+
 
         // Methoden
         public int Beschleunigen()
@@ -65,7 +66,7 @@ namespace M05Fahrzeuge
             return Zustand;
         }
 
-        public string BeschreibeMich()
+        public virtual string BeschreibeMich()
         {
             return $"Auto: {Name}\nMax Geschw: {MaxGeschwindigkeit}\nPreis: {Preis} €\nAktuelle Geschw: {AktuelleGeschwindigkeit} km/h\nZustand: {Zustand}";
         }

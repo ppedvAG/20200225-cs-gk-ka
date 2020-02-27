@@ -64,9 +64,9 @@ Ein Kurs von PPEDV :rocket:
 
 ## M60 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
 
 ## M70 | POLYMORPHISM
 

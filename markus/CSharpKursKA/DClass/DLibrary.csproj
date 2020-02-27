@@ -45,6 +45,9 @@
     <Compile Include="MyClass.cs" />
     <Compile Include="MyClassWInhNCtor.cs" />
     <Compile Include="MyClassWProps.cs" />
+    <Compile Include="IMyInterface.cs" />
+    <Compile Include="MyFancyClass.cs" />
+    <Compile Include="MyFancyClass2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

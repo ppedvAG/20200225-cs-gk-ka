@@ -22,6 +22,18 @@ namespace M5UseFahrpark
             auto1.StarteMotor();
             auto1.StarteMotor();
             Console.WriteLine(auto1.BeschreibeMich());
+
+            Flugzeug flieger1 = new Flugzeug("Boeing", 800, 30000000, 9000);
+
+            // Verwendung von IEnumerable
+            foreach (var item in flieger1)
+            {
+                Console.WriteLine($"item: {item}");
+            }
+
+            string testeArrayÄhnlichkeit = flieger1[2];
+            Console.WriteLine($"testeArrayÄhnlichkeit: {testeArrayÄhnlichkeit}");
+
             Console.ReadKey();
         }
     }

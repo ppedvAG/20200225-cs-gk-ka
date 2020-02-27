@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace DLibrary
 {
     // Konvention: Interfacesnamen fangen mit I an
-    interface IMyInterface
+    public interface IMyInterface
     {
         int FancyLevel { get; set; }
-        int ChangeFancyLevel(int fl, int FancyLevel);
+        int ChangeFancyLevel(int fl);
         string SayHalloInYourWay(); 
     }
 }

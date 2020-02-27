@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseFahrzeug", "UseFahrzeug\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFahrradTest", "MyFahrrad\MyFahrradTest.csproj", "{2CC27C90-756B-49BF-9AAF-6B2AADA6022D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWForm", "MyFirstWForm\MyFirstWForm.csproj", "{F4998D72-A1D3-4172-A0DD-462D56BA6575}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{2CC27C90-756B-49BF-9AAF-6B2AADA6022D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC27C90-756B-49BF-9AAF-6B2AADA6022D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC27C90-756B-49BF-9AAF-6B2AADA6022D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4998D72-A1D3-4172-A0DD-462D56BA6575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4998D72-A1D3-4172-A0DD-462D56BA6575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4998D72-A1D3-4172-A0DD-462D56BA6575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4998D72-A1D3-4172-A0DD-462D56BA6575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

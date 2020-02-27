@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DClass
+namespace DLibrary
 {
-    interface IMyInterface
+    // Konvention: Interfacenamen fangen mit I an
+    public interface IMyInterface
     {
+        int FancyLevel { get; set; }
+        int ChangeFancyLevel(int fl);
+        string SayHelloInYourWay();
     }
 }

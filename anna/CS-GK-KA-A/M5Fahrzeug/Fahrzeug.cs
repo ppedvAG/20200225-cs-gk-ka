@@ -17,9 +17,9 @@ namespace M5Fahrzeug
         public enum Zustand { Stehend, Fahrend };
         Zustand ZSD { get; set; }
 
-        public Fahrzeug(string s, int gm, int p, int ga, Zustand z)
+        public Fahrzeug(string name, int gm, int p, int ga, Zustand z)
         {
-            Name = s;
+            Name = name;
 
             Geschwindigkeit_max = gm;
 
@@ -57,7 +57,7 @@ namespace M5Fahrzeug
         }
 
 
-        public string Beschreibemich (){
+        public virtual string Beschreibemich (){
         
         return $" {Name}, {Geschwindigkeit_max}, {ZSD}";
         }

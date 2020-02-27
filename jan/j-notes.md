@@ -21,3 +21,10 @@
 | `strg` `k` `d` | format code |
 | `strg` `j` | autocomplete |
 | `strg` `k` `c` | comment code |
+
+
+### VISUAL STUDIO C# SNIPPETS
+
+| shortcut | effect |
+| ------- | ------ |
+| cw | Console.WriteLine() |

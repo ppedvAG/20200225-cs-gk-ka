@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyFancyClass.cs" />
+    <Compile Include="MyFancyClass2.cs" />
+    <Compile Include="Interface1.cs" />
     <Compile Include="MyClassWInheritence.cs" />
     <Compile Include="MyClassWProps.cs" />
     <Compile Include="MyClass.cs" />

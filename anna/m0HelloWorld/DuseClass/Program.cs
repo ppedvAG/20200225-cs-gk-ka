@@ -16,7 +16,6 @@ namespace DuseClass
             string str = myclass.GetFields();
             Console.WriteLine($"str: {str}, ");
             MyClassWProps myclasswprops = new MyClassWProps("Max", "Mustermann");
-
             Console.WriteLine($"{myclasswprops.Firstname} {myclasswprops.Lastname}");
             Console.ReadKey();
             

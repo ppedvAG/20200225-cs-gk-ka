@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyClassWInheritence.cs" />
     <Compile Include="MyClassWProps.cs" />
     <Compile Include="MyClass.cs" />
+    <Compile Include="MyClWInhNCtor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

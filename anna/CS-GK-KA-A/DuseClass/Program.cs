@@ -17,8 +17,29 @@ namespace DuseClass
             Console.WriteLine($"str: {str}, ");
             MyClassWProps myclasswprops = new MyClassWProps("Max", "Mustermann");
             Console.WriteLine($"{myclasswprops.Firstname} {myclasswprops.Lastname}");
+
+
+
+            Random myRandom = new Random();
+            myRandom.Next(2, 3);
+            Console.WriteLine($"Rückgabe von myRandom.Next(2,5): {myRandom.Next(2, 3)}");
+
+            MyClassWInheritence myClassWInheritence = new MyClassWInheritence();
+            myClassWInheritence.NextInclusive(2, 3);
+            Console.WriteLine($"Rückgabe von myClassWInheritence.NextInclusive(2,3): {myClassWInheritence.NextInclusive(2, 3)}");
+
+            MyClWInhNCtor myClWInhNCtor = new MyClWInhNCtor("Kevin", "Müller", "Dingenskirchens, Zirkel 11");
+            Console.WriteLine($"{myClWInhNCtor.BeschreibeMich()}");
+
+          
+
+
             Console.ReadKey();
             
+
+
+
+
         }
     }
 }

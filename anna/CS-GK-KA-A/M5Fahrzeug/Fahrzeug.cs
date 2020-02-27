@@ -46,20 +46,20 @@ namespace M5Fahrzeug
         }
 
 
-        public Startemotor(){
+        public void Startemotor(){
             ZSD = Zustand.Fahrend;
 
         }
 
-         public Stoppemotor(){
-            ZSD = Zustand.Fahrend;
+         public void Stoppemotor(){
+            ZSD = Zustand.Stehend;
 
         }
 
 
         public string Beschreibemich (){
         
-        return $" {Name}, {Geschwindigkeit_max}";
+        return $" {Name}, {Geschwindigkeit_max}, {ZSD}";
         }
     }
 

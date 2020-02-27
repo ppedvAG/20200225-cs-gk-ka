@@ -17,12 +17,16 @@ namespace M5UseFahrzeug
             int geschw = myBMW.Beschleunige(50);
 
             Console.WriteLine($"{geschw}");
-            Console.ReadKey();
-            
+
+            myBMW.Startemotor();
 
             Console.WriteLine(myBMW.Beschreibemich());
 
+            myBMW.Stoppemotor();
 
+            Console.WriteLine(myBMW.Beschreibemich());
+
+            Console.ReadKey();
         }
     }
 }

@@ -20,13 +20,25 @@ namespace M5UseFahrzeug
 
             myBMW.Startemotor();
 
-            Console.WriteLine(myBMW.Beschreibemich());
+            Console.WriteLine($"myBMW.Beschreibemich(): {myBMW.Beschreibemich()}");
 
             myBMW.Stoppemotor();
 
-            Console.WriteLine(myBMW.Beschreibemich());
+            Console.WriteLine($"myBMW.Beschreibemich(): {myBMW.Beschreibemich()}");
 
-            Console.ReadKey();
+            Flugzeug myBoeing = new Flugzeug("Boeing", 1000, 50000, 500, Fahrzeug.Zustand.Fahrend, "USA");
+            Console.WriteLine($"myBoeing.Beschreibemich(): {myBoeing.Beschreibemich()}");
+
+            Schiff Titanik = new Schiff("Titanik", 5000, 100000, 500, Fahrzeug.Zustand.Fahrend, "USA");
+            Console.WriteLine($"Titanik.Beschreibemich(): {Titanik.Beschreibemich()}");
+
+
+            PKW Opel = new PKW("Opel", 200, 10000, 500, Fahrzeug.Zustand.Fahrend, "Germany");
+            Console.WriteLine($"Opel.Beschreibemich(): {Opel.Beschreibemich()}");
+
+
+
+            Console.ReadKey();   
         }
     }
 }

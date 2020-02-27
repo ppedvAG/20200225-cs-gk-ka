@@ -28,13 +28,13 @@ namespace M05Fahrzeuge
         public FZustand Zustand { get; set; }
 
         // Konstruktoren
-        public FahrzeugLib(string strName, int MaxV, int iPreis, int AktuellV)
+        public FahrzeugLib(string strName, int MaxV, int iPreis)
         {
             this.Zustand = FZustand.Stehend;
             this.Name = strName;
             this.MaxGeschwindigkeit = MaxV;
             this.Preis = iPreis;
-            this.AktuelleGeschwindigkeit = AktuellV;
+            this.AktuelleGeschwindigkeit = 0;
         }
 
 

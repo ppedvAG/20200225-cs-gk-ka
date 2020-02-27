@@ -4,32 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M05Fahrzeuge
+namespace MyFahrzeug
 {
-    public class Schiff : FahrzeugLib, IBeladbar
+    public class Schiff : MyFahrzeugClass, IBeladbar
     {
-        public bool KannSchwimmen { get; set; }
-        public FahrzeugLib Ladung { get; set; }
+        public int Ladefläche { get; set; }
+        public MyFahrzeugClass Ladung { get; set; }
 
-        public Schiff(string strName, int MaxV, int iPreis, bool kannSchwimmen) : base(strName, MaxV, iPreis)
+        public Schiff(string Nm, int MG, int Pr, int AG, string Zs, int ladefläche) : base(Nm, MG, Pr, AG, Zs)
         {
-            KannSchwimmen = kannSchwimmen;
+            this.Ladefläche = ladefläche;
         }
+
         public override string BeschreibeMich()
         {
-            return base.BeschreibeMich() + $"\nKann Schwimmen: {KannSchwimmen}";
+            return base.BeschreibeMich() + $" und das Schiff hat {Ladefläche} m^2 Ladefläche";
         }
 
-        public void Beladen(FahrzeugLib fz)
+        public void Belade(MyFahrzeugClass fz)
         {
             if (this.Ladung == null)
             {
                 this.Ladung = fz;
                 Console.WriteLine($"Ladevorgang von '{fz.Name}' auf '{this.Name}' erfolgreich.");
-            }
-            else
+            } else
             {
-                Console.WriteLine($"Ladeplatz auf '{this.Name}' bereits durch '{fz.Name}' belegt.");
+                Console.WriteLine($"Ladeplatz auf '{this.Name}' bereits durch '{this.Ladung.Name}' belegt.");
             }
         }
 
@@ -37,7 +37,7 @@ namespace M05Fahrzeuge
         {
             if (this.Ladung != null)
             {
-                Console.WriteLine($"Entladevorgang von '{this.Name}' erfolgreich.");
+                Console.WriteLine($"Entladungsvorgang von '{this.Ladung.Name}' erfolgreich.");
                 this.Ladung = null;
             }
             else

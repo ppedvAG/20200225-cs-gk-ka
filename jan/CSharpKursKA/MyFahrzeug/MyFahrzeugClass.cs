@@ -48,7 +48,7 @@ namespace MyFahrzeug
             return Zustand;
         }
 
-        public string BeschreibeMich()
+        public virtual string BeschreibeMich()
         {
             return $"Das Fahrzeug ist ein {Name}, die Maximalgeschwindigkeit ist {MaximalGeschwindigkeit}, " +
                 $"der Preis ist {Preis}, die aktuelle Geschwindigkeit ist {AktuelleGeschwindigkeit}, der aktuelle Zustand ist {Zustand}";

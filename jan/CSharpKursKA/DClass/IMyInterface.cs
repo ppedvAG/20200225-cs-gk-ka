@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DLibrary
 {
-    // Konvention: Interfacenamen fangen mit I an
+    // Konvention: Interfacesnamen fangen mit I an
     public interface IMyInterface
     {
         int FancyLevel { get; set; }
         int ChangeFancyLevel(int fl);
-        string SayHelloInYourWay();
+        string SayHalloInYourWay();
     }
 }

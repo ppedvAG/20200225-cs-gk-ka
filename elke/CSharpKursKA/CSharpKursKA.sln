@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTicTacToe", "MyTicTacToe\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDelegate", "DDelegate\DDelegate.csproj", "{7D7F330E-4FD4-4974-A623-CA6B9447CF66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEntityFrCore", "DEntityFrCore\DEntityFrCore.csproj", "{20089511-6FCE-4249-A6F9-F1C418D43195}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{7D7F330E-4FD4-4974-A623-CA6B9447CF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7F330E-4FD4-4974-A623-CA6B9447CF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7F330E-4FD4-4974-A623-CA6B9447CF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20089511-6FCE-4249-A6F9-F1C418D43195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20089511-6FCE-4249-A6F9-F1C418D43195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20089511-6FCE-4249-A6F9-F1C418D43195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20089511-6FCE-4249-A6F9-F1C418D43195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

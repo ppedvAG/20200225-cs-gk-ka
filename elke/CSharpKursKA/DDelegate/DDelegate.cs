@@ -144,9 +144,7 @@ namespace DDelegate
 
             }
 
-
             #endregion
-
             //Vorteil von Pfeilfunktionen
             //wenn wir die Methode  Addieren nicht definiert hätten
             meinFunc = (a, b) => a + b;

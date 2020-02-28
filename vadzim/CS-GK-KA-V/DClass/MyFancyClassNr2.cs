@@ -8,11 +8,11 @@ namespace DLibrary
 {
     public class MyFancyClassNr2 : IMyInterface
     {
-        // int IMyInterface.FancyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
- 
-        // int IMyInterface.FancyLevel { get => this.FancyLevel; set => ChangeFancyLevel = ; }
+       
+        // vom Interface geforderte Eigenschaft
+        public int FancyLevel { get; set; }
 
-        public int ChangeFancyLevel(int fl, int FancyLevel)
+        public int ChangeFancyLevel(int fl)
         {
             FancyLevel = fl;
             // throw new NotImplementedException();

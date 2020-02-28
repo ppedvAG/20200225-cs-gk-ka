@@ -34,9 +34,9 @@
             // 
             // btnLeft
             // 
-            this.btnLeft.Location = new System.Drawing.Point(125, 107);
+            this.btnLeft.Location = new System.Drawing.Point(85, 71);
             this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(144, 90);
+            this.btnLeft.Size = new System.Drawing.Size(178, 82);
             this.btnLeft.TabIndex = 0;
             this.btnLeft.Text = "Button Links";
             this.btnLeft.UseVisualStyleBackColor = true;
@@ -44,9 +44,9 @@
             // 
             // btnRight
             // 
-            this.btnRight.Location = new System.Drawing.Point(394, 106);
+            this.btnRight.Location = new System.Drawing.Point(439, 71);
             this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(218, 90);
+            this.btnRight.Size = new System.Drawing.Size(272, 81);
             this.btnRight.TabIndex = 1;
             this.btnRight.Text = "Button Rechts";
             this.btnRight.UseVisualStyleBackColor = true;
@@ -54,9 +54,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1365, 633);
+            this.ClientSize = new System.Drawing.Size(1193, 499);
             this.Controls.Add(this.btnRight);
             this.Controls.Add(this.btnLeft);
             this.Name = "Form1";

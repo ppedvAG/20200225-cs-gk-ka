@@ -34,7 +34,7 @@
             // 
             // KlickMe1
             // 
-            this.KlickMe1.Location = new System.Drawing.Point(75, 64);
+            this.KlickMe1.Location = new System.Drawing.Point(166, 25);
             this.KlickMe1.Name = "KlickMe1";
             this.KlickMe1.Size = new System.Drawing.Size(93, 42);
             this.KlickMe1.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // KlickMe2
             // 
-            this.KlickMe2.Location = new System.Drawing.Point(218, 64);
+            this.KlickMe2.Location = new System.Drawing.Point(60, 25);
             this.KlickMe2.Name = "KlickMe2";
             this.KlickMe2.Size = new System.Drawing.Size(88, 42);
             this.KlickMe2.TabIndex = 1;

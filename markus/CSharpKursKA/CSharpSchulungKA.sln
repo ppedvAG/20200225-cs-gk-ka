@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05CallFahrzeug", "M05CallF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWForm", "MyFirstWForm\MyFirstWForm.csproj", "{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09TicTacToe", "M09TicTacToe\M09TicTacToe.csproj", "{9726D5E9-7864-4634-AD50-727682E243BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ddelegate", "Ddelegate\Ddelegate.csproj", "{C82C26D2-8700-4DC3-93AE-B0B2CEC31E1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6262B8D1-39C3-49A0-8FC8-5FB77396C8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9726D5E9-7864-4634-AD50-727682E243BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9726D5E9-7864-4634-AD50-727682E243BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9726D5E9-7864-4634-AD50-727682E243BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9726D5E9-7864-4634-AD50-727682E243BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82C26D2-8700-4DC3-93AE-B0B2CEC31E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82C26D2-8700-4DC3-93AE-B0B2CEC31E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82C26D2-8700-4DC3-93AE-B0B2CEC31E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82C26D2-8700-4DC3-93AE-B0B2CEC31E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

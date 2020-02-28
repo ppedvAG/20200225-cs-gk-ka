@@ -23,42 +23,41 @@ namespace MyTicTacToe
         {
             if (button1.Text== xoro && button2.Text == xoro && button3.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button4.Text == xoro && button5.Text == xoro && button6.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button7.Text == xoro && button8.Text == xoro && button9.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button1.Text == xoro && button4.Text == xoro && button7.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button2.Text == xoro && button5.Text == xoro && button8.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button3.Text == xoro && button6.Text == xoro && button9.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button1.Text == xoro && button5.Text == xoro && button9.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (button3.Text == xoro && button5.Text == xoro && button7.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen");
+                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
             }
             else if (counter == 8)
             {
-                MessageBox.Show(" Unentschieden");
+                MessageBox.Show("Das Spiel ist unentschieden.","SPIELENDE");
                 //Beendung der Anwendung forcieren
                 Environment.Exit(0);
-
             }
         }
 
@@ -79,14 +78,11 @@ namespace MyTicTacToe
                     checkWinner("X");
                 }
                 counter++;
-
-
             }
             else
             {
                 MessageBox.Show("Klick wo anders!");
             }
-
 
         }
 
@@ -98,43 +94,36 @@ namespace MyTicTacToe
         private void button2_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
         }
 
         private void button9_Click(object sender, EventArgs e)

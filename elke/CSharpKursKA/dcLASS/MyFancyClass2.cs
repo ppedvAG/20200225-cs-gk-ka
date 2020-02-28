@@ -11,9 +11,9 @@ namespace DLibrary
     {
         //ursprüngliches Einfügen auskommentiert
         //int IMyInterface.FancyLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        int IMyInterface.FancyLevel { get; set; }
+        public int FancyLevel { get; set; }
 
-         int IMyInterface.ChangeFancyLevel(int fl, int FancyLevel)
+         public int ChangeFancyLevel(int fl)
         {
             //throw new NotImplementedException();
             FancyLevel = fl;

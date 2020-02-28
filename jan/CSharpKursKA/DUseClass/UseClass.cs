@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DClass; // Manuell hinzugefügt
+using DLibrary; // Manuell hinzugefügt
 
 
 namespace DUseClass
@@ -21,7 +21,7 @@ namespace DUseClass
 
             
 
-            MyClassWProps myclasswprops = new DClass.MyClassWProps("Jan","Ehmann");
+            MyClassWProps myclasswprops = new DLibrary.MyClassWProps("Jan","Ehmann");
             Console.WriteLine($"{myclasswprops.Firstname} {myclasswprops.Lastname}");
 
 
@@ -39,6 +39,7 @@ namespace DUseClass
             MyClWInhNCtor myClWInhNCtor = new MyClWInhNCtor("Kevin-Pascal", "Müller", "Dingenskirchen, Dingenstraße 0");
             Console.WriteLine($"Die Person heißt {myClWInhNCtor.Firstname} {myClWInhNCtor.Lastname} und wohnt in {myClWInhNCtor.Wohnort}");
             Console.WriteLine($"myClWInhNCtor.BeschreibeMich(): {myClWInhNCtor.BeschreibeMich()}");
+
 
             Console.ReadKey();
 

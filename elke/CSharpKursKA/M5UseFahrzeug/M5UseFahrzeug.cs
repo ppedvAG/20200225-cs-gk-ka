@@ -31,7 +31,13 @@ namespace M5UseFahrzeug
 
             FZFlugzeug myFZFlugzeug = new FZFlugzeug("Flugzeug1", 150, 500, 100, "stehend", "Boing");
             
+
+            
             Console.WriteLine($"Flugzeug: {myFZFlugzeug.BeschreibeMich()}");
+            foreach (var item in myFZFlugzeug.Passagierliste)
+            {
+                Console.WriteLine($"Eintrag: {item}");
+            }
 
             FZPkw myFZPkw  = new FZPkw("PKW1", 150, 500, 100, "stehend", 6);
             Console.WriteLine($"PKW: {myFZPkw.BeschreibeMich()}");

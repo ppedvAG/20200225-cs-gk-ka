@@ -33,6 +33,19 @@ namespace M5Fahrzeug
             }
         }
 
+        public void Entlade()
+        {
+            if (this.Ladung != null)
+            {
+                Console.WriteLine($"Entladevorgang von '{this.Ladung.Name}' erfolgreich.");
+                this.Ladung = null;
+            }
+            else
+            {
+                Console.WriteLine($"'{this.Name}' hat keine Ladung geladen.");
+            }
+        }
+
         public string Land { get; set; }
 
         public Schiff(string name, int gm, int p, int ga, Zustand z, string land) : base(name, gm, p, ga, z)

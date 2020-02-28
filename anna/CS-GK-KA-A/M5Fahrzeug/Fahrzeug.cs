@@ -17,7 +17,7 @@ namespace M5Fahrzeug
         public enum Zustand { Stehend, Fahrend };
         Zustand ZSD { get; set; }
 
-        public Fahrzeug(string name, int gm, int p, int ga, Zustand z)
+        public Fahrzeug(string name, int gm, int p, int ga, Zustand z, int maxG)
         {
             Name = name;
 

@@ -23,7 +23,7 @@ namespace DLibrary
             // throw new NotImplementedException();
             FancyLevel = fl;
             return FancyLevel;
-        }
+        } 
 
         public string SayHalloInYourWay()
         {
@@ -35,6 +35,5 @@ namespace DLibrary
    
 
  
-    {
     }
-}
+

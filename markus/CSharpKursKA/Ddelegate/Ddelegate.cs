@@ -101,11 +101,37 @@ namespace Ddelegate
 
             #region Lists & Delegates Step 2
             Console.WriteLine();
-            List<string> Städteliste = new List<string>() { "Bremen", "Karlsruhe", "Hamburg" };
+            List<string> Städteliste = new List<string>() {  "Karlsruhe", "Hamburg","Bremen" };
             string gefundeneStadt = Städteliste.Find(SucheStadtMitH);
-            Console.WriteLine($" Die Stadt heißt: {gefundeneStadt}");
+            Console.WriteLine($"Die Stadt heißt: {gefundeneStadt}");
 
+            // Übergabe einer Methode als anonyme Methode
+            gefundeneStadt = Städteliste.Find(
+                delegate (string stadt)
+                {
+                    return stadt.StartsWith("K");
+                }
+                );
+            Console.WriteLine($"Die Stadt heißt: {gefundeneStadt}");
+
+            // Übergabe einer Methode als Arrow Function / Pfeilfunktion / Lambda
+            // Original
+            //gefundeneStadt = Städteliste.Find((string stadt) => {return stadt.StartsWith("B"); } );
+            // Falls nur ein Argument können dir runden Klammern weg
+            // Falls nur eine Anweisung dann return und {} weg
+            gefundeneStadt = Städteliste.Find( stadt => stadt.StartsWith("B"));
+            Console.WriteLine($"Die Stadt heißt: {gefundeneStadt}");
+
+            Städteliste = Städteliste.OrderBy(stadt => stadt[0]).ToList();
+            foreach (var item in Städteliste)
+            {
+                Console.WriteLine(item);
+            }
             #endregion
+
+            // Vorteil von Pfeilfunktionen
+            // Wenn wir die Methoden Addieren vorhin nicht definiert hätten:
+            meinFunc = (a, b) => a + b;
 
             Console.ReadKey();
         }

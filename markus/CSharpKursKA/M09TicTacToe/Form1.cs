@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MyTicTacToe
+namespace M09TicTacToe
 {
     public partial class Form1 : Form
     {
@@ -18,71 +18,74 @@ namespace MyTicTacToe
         }
 
         int counter = 0;
-
         void checkWinner(string xoro)
         {
-            if (button1.Text== xoro && button2.Text == xoro && button3.Text == xoro)
+            if (button1.Text == xoro && button2.Text == xoro && button3.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button4.Text == xoro && button5.Text == xoro && button6.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button7.Text == xoro && button8.Text == xoro && button9.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button1.Text == xoro && button4.Text == xoro && button7.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button2.Text == xoro && button5.Text == xoro && button8.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button3.Text == xoro && button6.Text == xoro && button9.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button1.Text == xoro && button5.Text == xoro && button9.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (button3.Text == xoro && button5.Text == xoro && button7.Text == xoro)
             {
-                MessageBox.Show(xoro + " hat gewonnen!", "S U P E R");
+                MessageBox.Show(xoro + " hat gewonnen!");
             }
             else if (counter == 8)
             {
-                MessageBox.Show("Das Spiel ist unentschieden.","SPIELENDE");
-                //Beendung der Anwendung forcieren
+                MessageBox.Show("Unentschieden!");
                 Environment.Exit(0);
             }
         }
-
-
-        void stepFunction(object senderopbj)
+        void stepFunction(object senderobj)
         {
-            string buttontext = ((Button)senderopbj).Text;
-            if (buttontext =="")
+            String Buttontext = ((Button)senderobj).Text;
+            if (Buttontext == "")
             {
-                if (counter % 2 == 0) //Counter ist gerade
+                if (counter % 2 == 0)
                 {
-                    ((Button)senderopbj).Text = "0";
-                    checkWinner("0");
+                    ((Button)senderobj).Text = "O";
+                    checkWinner("O");
                 }
-                else// ungerade
+                else
                 {
-                    ((Button)senderopbj).Text = "X";
+                    ((Button)senderobj).Text = "X";
                     checkWinner("X");
                 }
                 counter++;
+
             }
             else
             {
-                MessageBox.Show("Klick wo anders!");
+                //mbox Snippet
+                MessageBox.Show("Das Feld ist bereits belegt.");
             }
+
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
 
@@ -91,7 +94,7 @@ namespace MyTicTacToe
             stepFunction(sender);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             stepFunction(sender);
         }
@@ -129,12 +132,6 @@ namespace MyTicTacToe
         private void button9_Click(object sender, EventArgs e)
         {
             stepFunction(sender);
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

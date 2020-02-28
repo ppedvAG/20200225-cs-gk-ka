@@ -29,8 +29,8 @@
 | `ctrl leertaste` | force intellisense |
 | `f12` | go to definition |
 | `ctrl -` | go back |
-| `alt up|down` | move line |
-| `shift alt up|down` | edit many lines |
+| `alt up/down` | move line |
+| `shift alt up/down` | edit many lines |
 | `f5`| run with debugging |
 | `ctrl f5`| run without debugging |
 | `ctrl s` | save file |

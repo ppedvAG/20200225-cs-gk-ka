@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{562F097C-26FE-46F2-B99B-D914F2D03432}</ProjectGuid>
+    <ProjectGuid>{379FD25F-1EBE-4EC0-A40F-8A64C824FFAD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MyFirstWForm</RootNamespace>
-    <AssemblyName>MyFirstWForm</AssemblyName>
+    <RootNamespace>M9TicTacToe</RootNamespace>
+    <AssemblyName>M9TicTacToe</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>D:\D_Dokumente\k_csharp\20200225_CSharpAnf_VadzimN_KA\20200225-cs-gk-ka\vadzim\CS-GK-KA-V\MyFirstWForm\publish\</PublishUrl>
+    <PublishUrl>C:\Users\ppedv\source\repos\20200225-cs-gk-ka\jan\CSharpKursKA\M9TicTacToe\publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -49,10 +49,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>7D8B6C932B2C8135845A79B92192B1C33001205F</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>1445F1FC6A0F246FD1411575264DBC225D04F21D</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>MyFirstWForm_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>M9TicTacToe_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -94,7 +94,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="MyFirstWForm_TemporaryKey.pfx" />
+    <None Include="M9TicTacToe_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

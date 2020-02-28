@@ -1,8 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace DEntityFrCore
 {
-    class Program
+
+
+    class DEntityFrCore
     {
         static void Main(string[] args)
         {

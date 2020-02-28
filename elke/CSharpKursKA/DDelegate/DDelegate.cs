@@ -119,7 +119,38 @@ namespace DDelegate
             string gefundeneStadt = StädteListe.Find(SucheStadtMitH);
             Console.WriteLine($"\n Gefunden Stadt: {gefundeneStadt}");
 
+            //Übergabe einer Methode als anonyme Methode
+            gefundeneStadt = StädteListe.Find(
+                delegate (string stadt)
+                {
+                    return stadt.StartsWith("K");
+                }
+                );
+            Console.WriteLine($"\n neue gefunden Stadt: {gefundeneStadt}");
+
+            //Übergabe einer Methode als Arrow Function => Pfeilfunktion / Lambda
+            gefundeneStadt = StädteListe.Find((string stadt) => { return stadt.StartsWith("B"); });
+            Console.WriteLine($"\n neue gefunden Stadt: {gefundeneStadt}");
+
+            //Wenn die Pfeilfunktion nur ein Argument bekommt, dann sind die runden Klammern optional
+            // und die geschewiften Klammern ebenfalls
+            gefundeneStadt = StädteListe.Find(stadt =>  stadt.StartsWith("B"));
+            Console.WriteLine($"\n neue gefunden Stadt: {gefundeneStadt}");
+
+            StädteListe = StädteListe.OrderBy(stadt => stadt[0]).ToList();
+            foreach (var item in StädteListe)
+            {
+                Console.WriteLine($"\n Ausgabe der Liste: {item}");
+
+            }
+
+
             #endregion
+
+            //Vorteil von Pfeilfunktionen
+            //wenn wir die Methode  Addieren nicht definiert hätten
+            meinFunc = (a, b) => a + b;
+
 
             Console.ReadKey();
 

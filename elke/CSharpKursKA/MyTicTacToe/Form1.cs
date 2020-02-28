@@ -53,7 +53,13 @@ namespace MyTicTacToe
             {
                 MessageBox.Show(xoro + " hat gewonnen");
             }
+            else if (counter == 8)
+            {
+                MessageBox.Show(" Unentschieden");
+                //Beendung der Anwendung forcieren
+                Environment.Exit(0);
 
+            }
         }
 
 
@@ -65,14 +71,14 @@ namespace MyTicTacToe
                 if (counter % 2 == 0) //Counter ist gerade
                 {
                     ((Button)senderopbj).Text = "0";
+                    checkWinner("0");
                 }
                 else// ungerade
                 {
                     ((Button)senderopbj).Text = "X";
+                    checkWinner("X");
                 }
                 counter++;
-                checkWinner("0");
-                checkWinner("X");
 
 
             }

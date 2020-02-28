@@ -70,30 +70,58 @@ Ein Kurs von PPEDV :rocket:
 
 ## M70 | POLYMORPHISM
 
-- [ ] interfaces
+- [x] interfaces
+- [x] override vs overload
 
 ## M80 | GENERIC DATA STRUCTURES
 
-- [ ] List`<T>`
-- [ ] Stack`<T>`
-- [ ] Queue`<T>`
-- [ ] Dictionary`<T1, T2>`
-- [ ] Hachtable
+- [x] List`<T>`
+- [x] Stack`<T>`
+- [x] Queue`<T>`
+- [x] Dictionary`<T1, T2>`
+- [x] Hachtable
 
 ## M90 | WINDOWS FORMS
 
-## OFFENE AUSWAHL
+- [ ] partial classes
+- [ ] widgets / components
+- [ ] component props
+
+## M100 | DELEGATES & EVENTS
 
 Verwendung von Events​
 
-Exception-Handling​
+- [ ] custom delegates
+- [ ] built-in delegates
+- [ ] anonumous functions
+- [ ] event handler
 
-Unit-Tests oder (ein anderes Thema)​
+## M110 | Exception-Handling​
 
-Dateizugriff​
+- [ ]
+- [ ]
+- [ ]
 
-Datenbankzugriff mit ADO.NET​
+## M120 | Unit-Tests
 
-Datenbankzugriff mit Entity Framework​
+- [ ]
+- [ ]
+- [ ]
 
-Weitere Fragen
+## M130 | Dateizugriff​
+
+- [ ]
+- [ ]
+- [ ]
+
+## M140 | Datenbankzugriff mit Entity Framework​
+
+- [ ]
+- [ ]
+- [ ]
+
+## M150 | Datenbankzugriff mit ADO.NET​
+
+- [ ]
+- [ ]
+- [ ]

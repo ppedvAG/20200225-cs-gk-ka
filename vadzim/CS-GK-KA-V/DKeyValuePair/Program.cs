@@ -1,14 +1,32 @@
-            #region MXX
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DKeyValuePair
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            #region M8
 
             Console.WriteLine("\n # DECLARING ... #");
             // ===========================================================
             Console.WriteLine("\n ### ... ###");
+            var MyKeyValuePair = new KeyValuePair<string, string>("str1", "str2");
+            
+
+            string[] testArr = new string[] { "str1", "str2" };
+            Console.WriteLine($"testArr: {testArr}");
 
             Console.WriteLine("\n # USING ... #");
             // ===========================================================
             Console.WriteLine("\n ### ... ###");
+            Console.WriteLine($"MyKeyValuePair: {MyKeyValuePair}");
 
-            #endregion MXX
+            #endregion M8
 
             // #############################################################################
             // #############################################################################
@@ -37,3 +55,6 @@
             #endregion
 
             Console.ReadKey();
+        }
+    }
+}

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4998D72-A1D3-4172-A0DD-462D56BA6575}</ProjectGuid>
+    <ProjectGuid>{7F7C1632-2BF5-4DE5-8024-21596D67A4A2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MyFirstWForm</RootNamespace>
     <AssemblyName>MyFirstWForm</AssemblyName>
@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\ppedv\source\repos\20200225-cs-gk-ka\jan\CSharpKursKA\MyFirstWForm\publish\</PublishUrl>
+    <PublishUrl>C:\Users\ppedv\source\repos\20200225-cs-gk-ka\anna\CS-GK-KA-A\MyFirstWForm\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,8 +28,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>A0F5D27CAD0D6211B988C1E57A04FD42DE228BF1</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>D79CD02FABD3941C72B350F65189FFBA31E72204</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>MyFirstWForm_TemporaryKey.pfx</ManifestKeyFile>
@@ -64,9 +62,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

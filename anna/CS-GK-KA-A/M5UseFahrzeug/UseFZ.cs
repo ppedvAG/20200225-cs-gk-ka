@@ -36,6 +36,15 @@ namespace M5UseFahrzeug
             PKW Opel = new PKW("Opel", 200, 10000, 500, Fahrzeug.Zustand.Fahrend, "Germany");
             Console.WriteLine($"Opel.Beschreibemich(): {Opel.Beschreibemich()}");
 
+            Flugzeug flieger1 = new Flugzeug("Boeing", 800, 3000000, 500, Fahrzeug.Zustand.Stehend, "USA", 9000, 800);
+
+            foreach(var item in flieger1)
+            {
+                Console.WriteLine($"item:{item}");
+            }
+            string testeArrayÄhnlichkeit = flieger1[2];
+            Console.WriteLine($"testeArrayÄhnlichkeit:{testeArrayÄhnlichkeit}");
+
 
 
             Console.ReadKey();   

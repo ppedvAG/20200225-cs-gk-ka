@@ -23,28 +23,36 @@ Ein Kurs von PPEDV :rocket:
 - [x] Intro
 - [x] Ecosystem
 - [x] .NET
-- [x] Console -> DConsole
+- [x] Console
+
+DConsole
+
+M1HelloWorld
 
 ## M20 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] bool -> Dbool
-- [x] string -> Dstring
-- [x] int -> Dint
-- [x] double -> Ddouble
+- [x] bool
+- [x] string
+- [x] int
+- [x] double
 - [x] Operatoren
 - [x] Casting
-- [x] Enums -> Denum
+- [x] Enums
+
+Dbool, Dstring, Dint, Ddouble, Denum
 
 M2MiniRechner
 
 ## M30 | ARRAYS & CONTROLS
 
-- [x] Arrays -> DArray
+- [x] Arrays
 - [x] if else
 - [x] for
 - [x] while & do while
 - [x] switch
+
+DArray, DRandom
 
 M3Zahlenratespiel
 
@@ -55,6 +63,8 @@ M3Zahlenratespiel
 - [x] return
 - [x] overloads
 - [x] out & ref args
+
+DMethods
 
 ## M50 | CLASSES & OOP
 
@@ -87,12 +97,14 @@ DLibrary, DLibraryConsumer
 
 ## M80 | GENERIC DATA STRUCTURES
 
-- [x] List`<T>` -> DList
-- [x] Stack`<T>` -> DStack
-- [x] Queue`<T>` -> DQueue
-- [x] KeyValuePair`<T1, T2>` -> DKeyValuePair
-- [x] Dictionary`<T1, T2>` -> DDictionary
+- [x] List`<T>`
+- [x] Stack`<T>`
+- [x] Queue`<T>`
+- [x] KeyValuePair`<T1, T2>`
+- [x] Dictionary`<T1, T2>`
 - [ ] Hachtable
+
+DList, DStack, DQueue, DKeyValuePair, DDictionary
 
 ## M90 | WINDOWS FORMS
 
@@ -106,12 +118,12 @@ M9TicTacToe
 
 ## M100 | DELEGATES & EVENTS
 
-Verwendung von Events​
-
 - [x] custom delegates
 - [x] built-in delegates
 - [x] anonumous functions
 - [x] event handler
+
+Ddelegate
 
 ## M110 | Exception-Handling​
 

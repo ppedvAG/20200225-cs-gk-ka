@@ -45,7 +45,7 @@ namespace DConsole
             Console.WriteLine("\n ### Console.OutputEncoding ###");
             Console.WriteLine("Eurozeichen: €"); // steht ?
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("Eurozeichen mit Encoding.UTF8: €");
+            Console.WriteLine("Eurozeichen mit Encoding.UTF8: €"); // steht €
 
 
             #endregion

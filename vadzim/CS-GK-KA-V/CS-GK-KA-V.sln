@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMethods", "DMethods\DMetho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibrary", "DClass\DLibrary.csproj", "{7DCC235E-4CFC-45E2-A069-52145D03F071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibraryConsument", "DUseClass\DLibraryConsument.csproj", "{53A6D153-E223-4BA0-B0E5-EF86DB1C5A5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLibraryConsumer", "DUseClass\DLibraryConsumer.csproj", "{53A6D153-E223-4BA0-B0E5-EF86DB1C5A5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Fahrzeugpark", "M5Fahrzeugpark\M5Fahrzeugpark.csproj", "{8AB5012D-062E-4A9F-8CCF-219B9695BCA9}"
 EndProject
@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5UseFahrpark", "M5UseFahrp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRandom", "DRandom\DRandom.csproj", "{A1399012-5BA8-4885-88F1-C6E9F0B44BDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWForm", "MyFirstWForm\MyFirstWForm.csproj", "{562F097C-26FE-46F2-B99B-D914F2D03432}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWinForm", "MyFirstWForm\DWinForm.csproj", "{562F097C-26FE-46F2-B99B-D914F2D03432}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M9TicTacToe", "M9TicTacToe\M9TicTacToe.csproj", "{BF5C3721-BA1C-455B-82F4-2E674444CEAB}"
 EndProject

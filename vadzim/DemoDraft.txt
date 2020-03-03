@@ -1,10 +1,10 @@
             #region MXX
 
-            Console.WriteLine("\n # DECLARING ... #");
+            Console.WriteLine("\t # DECLARING ... #");
             // ===========================================================
             Console.WriteLine("\n ### ... ###");
 
-            Console.WriteLine("\n # USING ... #");
+            Console.WriteLine("\n\n\t # USING ... #");
             // ===========================================================
             Console.WriteLine("\n ### ... ###");
 
@@ -34,6 +34,6 @@
             // ===========================================================
             // ===========================================================
             // ===========================================================
-            #endregion
+            #endregion MORE FANCY STUFF
 
             Console.ReadKey();

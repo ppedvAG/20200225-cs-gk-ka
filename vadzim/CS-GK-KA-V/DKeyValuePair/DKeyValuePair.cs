@@ -6,25 +6,38 @@ using System.Threading.Tasks;
 
 namespace DKeyValuePair
 {
-    class Program
+    class DKeyValuePair
     {
         static void Main(string[] args)
         {
             #region M8
 
-            Console.WriteLine("\n # DECLARING ... #");
+            Console.WriteLine("\t # DECLARING KEY VALUE PAIRS #");
             // ===========================================================
-            Console.WriteLine("\n ### ... ###");
-            var MyKeyValuePair = new KeyValuePair<string, string>("str1", "str2");
-            
+            Console.WriteLine("\n ### constructor KeyValuePair<T1, T2>(key, value) ###");
+            KeyValuePair<string, string> MyKeyValuePair = new KeyValuePair<string, string>("str1", "str2");
 
+
+            Console.WriteLine("\n\n\t # USING KEY VALUE PAIRS #");
+            // ===========================================================
+            Console.WriteLine("\n ### value of keyvaluepair identifier ###");
+            Console.WriteLine($"MyKeyValuePair: {MyKeyValuePair}");
+
+
+            // ===========================================================
+            Console.WriteLine("\n ### difference with an array ###");
             string[] testArr = new string[] { "str1", "str2" };
             Console.WriteLine($"testArr: {testArr}");
 
-            Console.WriteLine("\n # USING ... #");
+
             // ===========================================================
-            Console.WriteLine("\n ### ... ###");
-            Console.WriteLine($"MyKeyValuePair: {MyKeyValuePair}");
+            Console.WriteLine("\n ### MyKeyValuePair.Key ###");
+            Console.WriteLine($"MyKeyValuePair.Key: {MyKeyValuePair.Key}");
+
+
+            // ===========================================================
+            Console.WriteLine("\n ### MyKeyValuePair.Value ###");
+            Console.WriteLine($"MyKeyValuePair.Value: {MyKeyValuePair.Value}");
 
             #endregion M8
 
@@ -52,7 +65,7 @@ namespace DKeyValuePair
             // ===========================================================
             // ===========================================================
             // ===========================================================
-            #endregion
+            #endregion MORE FANCY STUFF
 
             Console.ReadKey();
         }

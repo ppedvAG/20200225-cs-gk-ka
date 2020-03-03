@@ -83,18 +83,18 @@ Ein Kurs von PPEDV :rocket:
 
 ## M90 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
 
 ## M100 | DELEGATES & EVENTS
 
 Verwendung von Events​
 
-- [ ] custom delegates
-- [ ] built-in delegates
-- [ ] anonumous functions
-- [ ] event handler
+- [x] custom delegates
+- [x] built-in delegates
+- [x] anonumous functions
+- [x] event handler
 
 ## M110 | Exception-Handling​
 

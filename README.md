@@ -78,8 +78,9 @@ Ein Kurs von PPEDV :rocket:
 - [x] List`<T>`
 - [x] Stack`<T>`
 - [x] Queue`<T>`
+- [x] KeyValuePair`<T1, T2>`
 - [x] Dictionary`<T1, T2>`
-- [x] Hachtable
+- [ ] Hachtable
 
 ## M90 | WINDOWS FORMS
 
@@ -116,9 +117,10 @@ Verwendung von Events​
 
 ## M140 | Datenbankzugriff mit Entity Framework​
 
-- [ ]
-- [ ]
-- [ ]
+- [x] entities
+- [x] models
+- [x] dbcontext
+- [x] dbset
 
 ## M150 | Datenbankzugriff mit ADO.NET​
 

@@ -99,17 +99,23 @@ Verwendung von Events​
 
 ## M110 | Exception-Handling​
 
+to be continued..
+
 - [ ]
 - [ ]
 - [ ]
 
 ## M120 | Unit-Tests
 
+to be continued..
+
 - [ ]
 - [ ]
 - [ ]
 
 ## M130 | File Access Dateizugriff​
+
+to be continued..
 
 - [ ]
 - [ ]
@@ -123,6 +129,8 @@ Verwendung von Events​
 - [x] dbset
 
 ## M150 | Datenbankzugriff mit ADO.NET​
+
+to be continued..
 
 - [ ]
 - [ ]

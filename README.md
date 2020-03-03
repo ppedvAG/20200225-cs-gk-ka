@@ -23,26 +23,30 @@ Ein Kurs von PPEDV :rocket:
 - [x] Intro
 - [x] Ecosystem
 - [x] .NET
-- [x] Console
+- [x] Console -> DConsole
 
 ## M20 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] bool
-- [x] string
-- [x] int
-- [x] double
+- [x] bool -> Dbool
+- [x] string -> Dstring
+- [x] int -> Dint
+- [x] double -> Ddouble
 - [x] Operatoren
 - [x] Casting
-- [x] Enums
+- [x] Enums -> Denum
+
+M2MiniRechner
 
 ## M30 | ARRAYS & CONTROLS
 
-- [x] Arrays
+- [x] Arrays -> DArray
 - [x] if else
 - [x] for
 - [x] while & do while
 - [x] switch
+
+M3Zahlenratespiel
 
 ## M40 | FUNCTIONS
 
@@ -62,24 +66,32 @@ Ein Kurs von PPEDV :rocket:
 - [x] inctances / objects
 - [x] destructor
 
+DLibrary, DLibraryConsumer
+
+M5Fahrzeugpark, M5UseFahrpark
+
 ## M60 | INHERITENCE / VERERBUNG
 
 - [x] base
 - [x] virtual & override methods
 - [x] abstract methods
 
+DLibrary, DLibraryConsumer
+
 ## M70 | POLYMORPHISM
 
 - [x] interfaces
 - [x] override vs overload
 
+DLibrary, DLibraryConsumer
+
 ## M80 | GENERIC DATA STRUCTURES
 
-- [x] List`<T>`
-- [x] Stack`<T>`
-- [x] Queue`<T>`
-- [x] KeyValuePair`<T1, T2>`
-- [x] Dictionary`<T1, T2>`
+- [x] List`<T>` -> DList
+- [x] Stack`<T>` -> DStack
+- [x] Queue`<T>` -> DQueue
+- [x] KeyValuePair`<T1, T2>` -> DKeyValuePair
+- [x] Dictionary`<T1, T2>` -> DDictionary
 - [ ] Hachtable
 
 ## M90 | WINDOWS FORMS
@@ -87,6 +99,10 @@ Ein Kurs von PPEDV :rocket:
 - [x] partial classes
 - [x] widgets / components
 - [x] component props
+
+DWinForm
+
+M9TicTacToe
 
 ## M100 | DELEGATES & EVENTS
 
@@ -127,6 +143,8 @@ to be continued..
 - [x] models
 - [x] dbcontext
 - [x] dbset
+
+DEntityFrCore
 
 ## M150 | Datenbankzugriff mit ADO.NET​
 
